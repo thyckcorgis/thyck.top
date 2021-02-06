@@ -1,5 +1,5 @@
 import React from "react";
-import { Corgi } from "./index";
+import { Corgi } from "../images";
 
 export default function NavBar() {
   return (
