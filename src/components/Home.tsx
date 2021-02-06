@@ -17,9 +17,15 @@ export default function Home() {
         <p className="body">
           Thyck Corgis are back and better than ever, this time, in the form of
           a website. We make projects, we get t h y c k.
+          <br />
+          <br />
+          Check out our latest app!
         </p>
+        <div>
+          <button className="button">Heart 2 Heart</button>
+        </div>
       </div>
-      <div className="homeBox">
+      <div className="iPhoneBox">
         <img className="iPhone" src={allImages.Iphone} />
       </div>
     </div>
