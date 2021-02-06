@@ -1,4 +1,36 @@
+/* COLOuRS */
+:root {
+  --corgibeige: #f4b670;
+  --corgibrown: #3f2410;
+  --corgipink: #ffa2a2;
+  --corgiwhite: #fff7f1;
+}
 /* NAV BAR */
-.container {
+.navBox {
   display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: var(--brown);
+}
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: "Segoe UI";
+  font-size: small;
+}
+li a:hover {
+  background-color: var(--corgibeige);
 }
