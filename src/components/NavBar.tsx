@@ -1,26 +1,17 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import { Corgi } from "../images";
 import "./components.css";
 
 export default function NavBar() {
   return (
     <div className="navBox">
-      <ul className="navList">
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/team">Our Team</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
-        <li>
-          <div>
-            <a href="/">Thyck Corgis</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+      <nav className="navList">
+        <Link to="/about" className="nav-link">About</Link>
+        <Link to="/team" className="nav-link">Our Team</Link>
+        <Link to="/projects" className="nav-link">Projects</Link>
+        <Link to="/" className="nav-link">Thyck Corgis</Link>
+      </nav>
+    </div >
   );
 }
