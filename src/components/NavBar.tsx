@@ -6,9 +6,9 @@ export default function NavBar() {
   return (
     <div className="navBox">
       <ul className="navList">
-        <li>
+        {/* <li>
           <a href="/about">About</a>
-        </li>
+        </li> */}
         <li>
           <a href="/team">Our Team</a>
         </li>
