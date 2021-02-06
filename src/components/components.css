@@ -34,3 +34,19 @@ li a {
 li a:hover {
   background-color: var(--corgibeige);
 }
+
+/* HOME PAGE */
+.homeScreen {
+  flex: 1;
+  border-style: solid;
+}
+.title {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-family: "Segoe UI";
+  font-size: 56;
+}
+.body {
+  font-family: "Segoe UI";
+}
