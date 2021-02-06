@@ -37,16 +37,31 @@
 
 /* HOME PAGE */
 .homeScreen {
+  display: flex;
   flex: 1;
-  border-style: solid;
+  flex-direction: row;
+  padding: 30px;
+  background-color: #fafafa;
+  /* border-style: solid; */
+}
+.homeBox {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+  /* border-style: solid; */
+}
+.iPhone {
+  flex: 1;
+  width: 100%;
 }
 .title {
   display: flex;
   color: black;
   text-decoration: none;
   font-family: "Segoe UI";
-  font-size: 56;
+  font-size: 56px;
 }
 .body {
   font-family: "Segoe UI";
+  font-size: 20px;
 }
