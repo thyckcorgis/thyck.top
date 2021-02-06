@@ -17,7 +17,7 @@ export default function NavBar() {
         </li>
         <li>
           <div>
-            <a href="/home">Thyck Corgis</a>
+            <a href="/">Thyck Corgis</a>
           </div>
         </li>
       </ul>
