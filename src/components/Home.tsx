@@ -5,7 +5,6 @@ import NavBar from "./NavBar";
 export default function Home() {
   return (
     <div>
-      <NavBar />
       <div className="homeScreen">
         <h1 className="title">This is the home page</h1>
       </div>

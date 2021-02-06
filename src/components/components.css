@@ -19,10 +19,9 @@
   overflow: hidden;
   background-color: white;
 }
-li {
+
+.nav-link {
   float: left;
-}
-li a {
   display: block;
   color: black;
   text-align: center;
@@ -31,7 +30,8 @@ li a {
   font-family: "Segoe UI";
   font-size: small;
 }
-li a:hover {
+
+.nav-link:hover {
   background-color: var(--corgibeige);
 }
 
