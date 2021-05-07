@@ -21,8 +21,8 @@ module.exports = {
       title: "Thyck Corgis",
       logo: {
         alt: "Thyck Corgis Logo",
-        src: "img/logo.svg",
-        srcDark: "img/logo_dark.svg",
+        src: "img/logo_light.svg",
+        srcDark: "img/logo.svg",
       },
       items: [
         {
