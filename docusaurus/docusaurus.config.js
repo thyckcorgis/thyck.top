@@ -6,15 +6,15 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/favicon.ico", // change this
+  organizationName: "thyckcorgis",
+  projectName: "thyck-top",
   themeConfig: {
     navbar: {
       title: "Thyck Corgis",
       logo: {
         alt: "Thyck Corgis Logo",
-        src: "img/logo.svg",
+        src: "img/logo.svg", // change this too
       },
       items: [
         {
@@ -40,7 +40,7 @@ module.exports = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/thyckcorgis",
           label: "GitHub",
           position: "right",
         },
@@ -59,23 +59,6 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
           title: "More",
           items: [
             {
@@ -84,12 +67,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/thyckcorgis",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Thyck Corgis. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -100,13 +83,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/thyckcorgis/thyck-top/edit/master/docusaurus/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/thyckcorgis/thyck-top/edit/master/docusaurus/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
