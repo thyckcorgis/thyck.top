@@ -32,12 +32,6 @@ module.exports = {
           to: "/about",
           label: "About Us",
         },
-        {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Tutorial",
-        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/thyckcorgis",
@@ -48,30 +42,6 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/thyckcorgis",
-            },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Thyck Corgis. Built with Docusaurus.`,
     },
   },
