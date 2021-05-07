@@ -28,14 +28,12 @@
 
 /* TEXT */
 .title {
-  color: black;
   text-decoration: none;
   font-family: "Segoe UI";
   font-size: 56px;
 }
 
 .body {
-  color: black;
   text-decoration: none;
   font-family: "Avenir Light";
   font-size: 20px;
