@@ -10,11 +10,19 @@ module.exports = {
   organizationName: "thyckcorgis",
   projectName: "thyck-top",
   themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      switchConfig: {
+        darkIcon: "🌚",
+        lightIcon: "🌝",
+      },
+    },
     navbar: {
       title: "Thyck Corgis",
       logo: {
         alt: "Thyck Corgis Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo_dark.svg",
       },
       items: [
         {
