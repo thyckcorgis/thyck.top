@@ -6,6 +6,8 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* COLOURS */
 :root {
   --ifm-color-primary: #f4b670;
   --ifm-color-primary-dark: #dba363;
@@ -22,4 +24,19 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+/* TEXT */
+.title {
+  color: black;
+  text-decoration: none;
+  font-family: "Segoe UI";
+  font-size: 56px;
+}
+
+.body {
+  color: black;
+  text-decoration: none;
+  font-family: "Avenir Light";
+  font-size: 20px;
 }
