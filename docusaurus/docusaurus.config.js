@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico", // change this
+  favicon: "img/favicon.ico",
   organizationName: "thyckcorgis",
   projectName: "thyck-top",
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: "Thyck Corgis",
       logo: {
         alt: "Thyck Corgis Logo",
-        src: "img/logo.svg", // change this too
+        src: "img/logo.svg",
       },
       items: [
         {
