@@ -2,6 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
+
+import IphoneSvg from "../../static/img/phone_wapp.svg";
 export default function () {
   return (
     <Layout
@@ -29,7 +31,7 @@ export default function () {
           </div>
         </div>
         <div className="iPhoneBox">
-          <img className="iPhone" src={allImages.Iphone} />
+          <IphoneSvg className={styles.IphoneSvg} />
         </div>
       </header>
     </Layout>
