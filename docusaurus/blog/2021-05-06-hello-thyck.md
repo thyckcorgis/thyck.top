@@ -5,7 +5,7 @@ author: Charles Ancheta
 author_title: A thyck developer
 author_url: https://github.com/cbebe
 author_image_url: https://avatars.githubusercontent.com/u/55412395?s=400&v=4
-tags: [hello, docusaurus]
+tags: [hello, thyck]
 ---
 
 Welcome to the first post in the Thyck Corgis blog! We are thyck.
