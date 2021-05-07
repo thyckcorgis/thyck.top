@@ -1,0 +1,14 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.person {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.personImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
