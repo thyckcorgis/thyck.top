@@ -22,9 +22,9 @@ const TeamList = [
     description: <>This is Will</>,
   },
   {
-    title: "Juyoung",
+    title: "Kim Juyoung",
     url: "/img/juyoung.png",
-    description: <>This is Juyoung</>,
+    description: <>This is Kim Juyoung</>,
   },
 ];
 
