@@ -67,7 +67,9 @@ function Team({ title, url, description, altDescription, Svg }) {
       >
         {isShown ? (
           <div>
-            <Svg className={styles.letterSvg} alt={title} />
+            <Svg className={styles.letterSvg} alt={title}>
+              <path id="letter" />
+            </Svg>
             <img className={styles.personImgHover} src={url} alt={title} />
           </div>
         ) : (

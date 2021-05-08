@@ -1,4 +1,15 @@
 /* stylelint-disable docusaurus/copyright-header */
+#letter {
+  stroke-dasharray: 1304.1647949218756942069;
+  stroke-dashoffset: 1304.1647949218756942069;
+  animation: letterDraw 10s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes letterDraw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 .person {
   display: flex;
