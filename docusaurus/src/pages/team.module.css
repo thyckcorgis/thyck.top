@@ -32,4 +32,6 @@
 .emoji {
   font-size: 69px;
   text-align: center;
+  position: relative;
+  top: -50px;
 }
