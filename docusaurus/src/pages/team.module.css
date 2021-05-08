@@ -12,3 +12,24 @@
   width: 200px;
   border-radius: 50%;
 }
+
+.personImgHover {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.letterSvg {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+}
+
+.emoji {
+  font-size: 69px;
+  text-align: center;
+}
