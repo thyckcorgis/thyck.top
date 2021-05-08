@@ -8,61 +8,87 @@ import clsx from "clsx";
 const TeamList = [
   {
     title: "Charles",
-    url: "/img/charles.png",
-    description: <>This is Charles </>,
-    altDescription: (
+    altTitle: (
       <>
         {String.fromCodePoint(0x1f449)}
         {String.fromCodePoint(0x1f448)}
+      </>
+    ),
+    url: "/img/charles.png",
+    description: <>This is Charles</>,
+    altDescription: (
+      <>
+        Charles is known for his massive dumptruck. He throws it back regularly,
+        twice a day, for health benefits.
       </>
     ),
     Svg: require("../../static/img/c.svg").default,
   },
   {
     title: "Annette",
+    altTitle: (
+      <>
+        {String.fromCodePoint(0x1f449)}
+        {String.fromCodePoint(0x1f448)}
+      </>
+    ),
     url: "/img/annette.png",
     description: <>This is Annette</>,
     altDescription: (
       <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
+        Annette is known for her amazing flowing hair. She is the first of the
+        group to have such beautiful hair. Will was too big of a fan and copied
+        her, dyeing his own hair like Annette.
       </>
     ),
     Svg: require("../../static/img/a.svg").default,
   },
   {
     title: "Will",
+    altTitle: (
+      <>
+        {String.fromCodePoint(0x1f449)}
+        {String.fromCodePoint(0x1f448)}
+      </>
+    ),
     url: "/img/will.png",
     description: <>This is Will</>,
     altDescription: (
       <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
+        Will is known for his uncanny ability to take everything out of context.
+        He practices once every hour by targetting all his friends.
       </>
     ),
     Svg: require("../../static/img/w.svg").default,
   },
   {
     title: "Kim Juyoung",
-    url: "/img/juyoung.png",
-    description: <>This is Kim Juyoung</>,
-    altDescription: (
+    altTitle: (
       <>
         {String.fromCodePoint(0x1f449)}
         {String.fromCodePoint(0x1f448)}
+      </>
+    ),
+    url: "/img/juyoung.png",
+    description: <>This is Juyoung</>,
+    altDescription: (
+      <>
+        Kim Juyoung is known for his unwavering ability to ignore all pleading
+        faces, much to everyone's dismay. He is also the owner of the rumoured
+        lotus blankets.
       </>
     ),
     Svg: require("../../static/img/k.svg").default,
   },
 ];
 
-function Team({ title, url, description, altDescription, Svg }) {
+function Team({ title, altTitle, url, description, altDescription, Svg }) {
   const [isShown, setIsShown] = useState(false);
   return (
     <div className={clsx("col col--3")}>
       <div
         className="text--center"
-        onMouseEnter={() => setIsShown(true)}
+        onMouseOver={() => setIsShown(true)}
         onMouseLeave={() => setIsShown(false)}
       >
         {isShown ? (
@@ -81,7 +107,11 @@ function Team({ title, url, description, altDescription, Svg }) {
       <div className="text--center padding-horiz--md">
         <div>
           {isShown ? (
-            <p className={styles.emoji}>{altDescription}</p>
+            <div>
+              <p className={styles.emoji}>{altTitle}</p>
+              <h3>{title}</h3>
+              <p>{altDescription}</p>
+            </div>
           ) : (
             <div>
               <h3>{title}</h3>
