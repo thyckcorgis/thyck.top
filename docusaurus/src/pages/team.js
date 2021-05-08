@@ -93,6 +93,9 @@ function Team({ title, altTitle, url, description, altDescription, Svg }) {
       >
         {isShown ? (
           <div>
+            <div className={styles.emojiBox}>
+              <p className={styles.emoji}>{altTitle}</p>
+            </div>
             <Svg className={styles.letterSvg} alt={title}>
               <path id="letter" />
             </Svg>
@@ -108,7 +111,6 @@ function Team({ title, altTitle, url, description, altDescription, Svg }) {
         <div>
           {isShown ? (
             <div>
-              <p className={styles.emoji}>{altTitle}</p>
               <h3>{title}</h3>
               <p>{altDescription}</p>
             </div>

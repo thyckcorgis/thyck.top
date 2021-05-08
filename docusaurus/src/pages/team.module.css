@@ -14,7 +14,7 @@
 .person {
   display: block;
   align-items: center;
-  padding: 5rem 0;
+  padding: 2rem 0;
   width: 100%;
 }
 
@@ -45,11 +45,16 @@
   position: absolute;
 }
 
+.emojiBox {
+  position: absolute;
+  z-index: 1;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  top: 200px;
+}
 .emoji {
   font-size: 69px;
   text-align: center;
-  position: absolute;
-  z-index: 1;
-  top: 200px;
-  width: 260px;
+  width: 100%;
 }
