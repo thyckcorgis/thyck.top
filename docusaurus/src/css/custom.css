@@ -84,7 +84,8 @@
   font-size: 69px;
   text-align: center;
   width: 100%;
-  display: none;
+  opacity: 0;
+  transition: 0.5s ease;
 }
 
 .imgBox:hover .personImg {
@@ -98,7 +99,7 @@
 }
 
 .imgBox:hover .emoji {
-  display: inline-block;
+  opacity: 1;
 }
 
 .letter {
