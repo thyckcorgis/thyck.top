@@ -73,10 +73,6 @@
   display: none;
 }
 
-.personRow {
-  justify-content: center;
-}
-
 .emoji {
   position: relative;
   border-radius: 50%;
