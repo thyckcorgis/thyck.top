@@ -43,39 +43,3 @@
   font-family: "Montserrat";
   font-size: 20px;
 }
-
-/* LETTERS */
-path.letterC {
-  stroke-dasharray: 1304.1647949218756942069;
-  stroke-dashoffset: 1304.1647949218756942069;
-}
-
-path.letterA {
-  stroke-dasharray: 1488.028320312569;
-  stroke-dashoffset: 1488.028320312569;
-}
-
-path.letterW {
-  stroke-dasharray: 2263.72314453125;
-  stroke-dashoffset: 2263.72314453125;
-}
-
-path.letterK {
-  stroke-dasharray: 1532.580078125;
-  stroke-dashoffset: 1532.580078125;
-}
-
-path.letter {
-  animation: letterDraw 1s ease;
-  animation-fill-mode: forwards;
-}
-@keyframes letterDraw {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-/* CONTAINERS */
-.person-box {
-  min-height: 40vh;
-}
