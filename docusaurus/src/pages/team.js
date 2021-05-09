@@ -90,7 +90,7 @@ const TeamList = [
 function Team({ title, altTitle, url, description, pathD, letter, delay }) {
   return (
     <div className={clsx("col col--3")}>
-      <div className="imgBox" style={{ animationDelay: { delay } }}>
+      <div className="imgBox">
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="personImg" src={url} alt={title} />
         <p className="emoji">{altTitle}</p>
