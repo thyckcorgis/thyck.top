@@ -26,7 +26,7 @@ const Svg = ({ title, pathD, letter }) => (
 
 const TeamList = [
   {
-    title: "Charles",
+    title: "Charles Anchentai",
     altTitle: (
       <>
         {String.fromCodePoint(0x1f449)}
@@ -46,7 +46,7 @@ const TeamList = [
     letter: "letterC",
   },
   {
-    title: "Annette",
+    title: "Annette Loo",
     altTitle: (
       <>
         {String.fromCodePoint(0x1f449)}
@@ -67,7 +67,7 @@ const TeamList = [
     letter: "letterA",
   },
   {
-    title: "Will",
+    title: "Will Chowokawy",
     altTitle: (
       <>
         {String.fromCodePoint(0x1f449)}
