@@ -3,7 +3,9 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 
-import IphoneSvg from "../../static/img/phone_wapp.svg";
+import PhoneWapp from "../../static/img/phone_wapp.svg";
+import PhoneH2H from "../../static/img/phone_h2h.svg";
+
 export default function () {
   return (
     <Layout
@@ -12,14 +14,14 @@ export default function () {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <p className="title">
+          <p className="title text-left">
             HelloWo rld?
             <br />
             No.
             <br />
             Hello Thyck.
           </p>
-          <p className="body">
+          <p className="body text-left">
             Thyck Corgis are back and better than ever, this time, in the form
             of a website. We make projects, we get t h y c k.
             <br />
@@ -31,7 +33,8 @@ export default function () {
           </div>
         </div>
         <div className="iPhoneBox">
-          <IphoneSvg className={styles.IphoneSvg} />
+          <PhoneWapp className={styles.iPhoneSvg} />
+          {/* <PhoneH2H className={styles.iPhoneSvg} /> */}
         </div>
       </header>
     </Layout>

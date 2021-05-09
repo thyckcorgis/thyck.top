@@ -29,16 +29,21 @@
 /* TEXT */
 .title {
   text-decoration: none;
-  font-family: "Segoe UI";
+  font-family: "Montserrat";
   font-size: 56px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .body {
   text-decoration: none;
-  font-family: "Segoe UI";
+  font-family: "Montserrat";
   font-size: 20px;
 }
 
+/* LETTERS */
 path.letterC {
   stroke-dasharray: 1304.1647949218756942069;
   stroke-dashoffset: 1304.1647949218756942069;
