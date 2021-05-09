@@ -72,17 +72,14 @@
   display: none;
 }
 
-.emojiBox {
-  position: relative;
-  border-radius: 50%;
-  top: -10%;
-}
-
 .personRow {
   justify-content: center;
 }
 
 .emoji {
+  position: relative;
+  border-radius: 50%;
+  top: -10%;
   font-size: 69px;
   text-align: center;
   width: 100%;
