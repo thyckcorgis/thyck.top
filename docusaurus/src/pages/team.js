@@ -85,7 +85,7 @@ const TeamList = [
 
 function Team({ title, altTitle, url, description, pathD, letter }) {
   return (
-    <div className={clsx("col col--6")}>
+    <div className={clsx("col col--3")}>
       <div className="imgBox">
         <div className="emojiBox">
           <p className="emoji">{altTitle}</p>
