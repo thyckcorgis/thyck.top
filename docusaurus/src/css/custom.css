@@ -31,6 +31,7 @@
   text-decoration: none;
   font-family: "Montserrat";
   font-size: 56px;
+  text-align: center;
 }
 
 .text-left {
@@ -72,4 +73,9 @@ path.letter {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+/* CONTAINERS */
+.person-box {
+  min-height: 40vh;
 }

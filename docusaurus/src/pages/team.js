@@ -120,7 +120,7 @@ function Team({
 }) {
   const [isShown, setIsShown] = useState(false);
   return (
-    <div className={clsx("col col--3")}>
+    <div className={clsx("col col--6")}>
       <div
         className="text--center"
         onMouseOver={() => setIsShown(true)}
@@ -146,12 +146,12 @@ function Team({
           {isShown ? (
             <div>
               <h3>{title}</h3>
-              <p>{altDescription}</p>
+              <p className="body">{altDescription}</p>
             </div>
           ) : (
             <div>
               <h3>{title}</h3>
-              <p>{description}</p>
+              <p className="body">{description}</p>
             </div>
           )}
         </div>
@@ -168,7 +168,7 @@ export default function Teampage() {
     >
       <section className={styles.person}>
         <div className="container">
-          <h1>Meet who's behind the projects Thyck Corgis develop.</h1>
+          <p className="title">Meet the people behind Thyck Corgis.</p>
           <div className="row">
             {TeamList.map((props, idx) => (
               <Team key={idx} {...props} />
