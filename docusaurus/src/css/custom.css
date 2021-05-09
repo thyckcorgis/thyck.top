@@ -38,3 +38,15 @@
   font-family: "Segoe UI";
   font-size: 20px;
 }
+
+path.letter {
+  stroke-dasharray: 1304.1647949218756942069;
+  stroke-dashoffset: 1304.1647949218756942069;
+  animation: letterDraw 2s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes letterDraw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
