@@ -12,7 +12,7 @@ const Svg = ({ title, pathD, letter }) => (
     viewBox="0 0 500 500"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className={styles.letterSvg}
+    className="letterSvg"
     alt={title}
   >
     <path
@@ -121,10 +121,10 @@ function Team({
   return (
     <div className={clsx("col col--6")}>
       <div className="text--center">
-        <div>
-          <div className={styles.emojiBox}>
+        <div className="imgBox">
+          {/* <div className={styles.emojiBox}>
             <p className={styles.emoji}>{altTitle}</p>
-          </div>
+          </div> */}
           <Svg key={title} pathD={pathD} title={title} letter={letter} />
           <img className="personImg" src={url} alt={title} />
         </div>

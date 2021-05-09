@@ -11,18 +11,6 @@
   width: 100%;
   min-height: 100vh;
 }
-.personBox {
-  min-height: 40vh;
-}
-
-.letterSvg {
-  transition: 0.5s ease;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  z-index: 1;
-  position: absolute;
-}
 
 .emojiBox {
   position: absolute;
