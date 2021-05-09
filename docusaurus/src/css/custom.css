@@ -38,10 +38,15 @@
   text-align: left;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .body {
   text-decoration: none;
   font-family: "Montserrat";
   font-size: 20px;
+  text-align: center;
 }
 
 /* LETTER ANIMATION */
@@ -49,7 +54,7 @@
   height: 210px;
   width: 210px;
   border-radius: 50%;
-  /* align-self: center; */
+  align-items: center;
 }
 
 .personImg {
@@ -85,7 +90,6 @@
   display: inline;
 }
 
-/* LETTER ANIMATIONS */
 .letter {
   animation: letterDraw 1s ease;
   animation-fill-mode: forwards;

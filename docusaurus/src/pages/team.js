@@ -120,23 +120,15 @@ function Team({
 }) {
   return (
     <div className={clsx("col col--6")}>
-      <div className="text--center">
-        <div className="imgBox">
-          {/* <div className={styles.emojiBox}>
+      <div className="imgBox">
+        {/* <div className={styles.emojiBox}>
             <p className={styles.emoji}>{altTitle}</p>
           </div> */}
-          <Svg key={title} pathD={pathD} title={title} letter={letter} />
-          <img className="personImg" src={url} alt={title} />
-        </div>
+        <Svg key={title} pathD={pathD} title={title} letter={letter} />
+        <img className="personImg" src={url} alt={title} />
       </div>
-      <div className="text--center padding-horiz--md">
-        <div>
-          <div>
-            <h3>{title}</h3>
-            <p className="body">{description}</p>
-          </div>
-        </div>
-      </div>
+      <p className="body text-bold">{title}</p>
+      <p className="body">{description}</p>
     </div>
   );
 }
