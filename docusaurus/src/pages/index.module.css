@@ -33,6 +33,6 @@
   height: 1000px;
   width: 1000px;
   margin: -200px -200px -400px -200px;
-  border-style: solid;
+  /* border-style: solid; */
   overflow: hidden;
 }
