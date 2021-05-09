@@ -13,12 +13,11 @@
 }
 
 .emojiBox {
-  position: absolute;
-  z-index: 1;
+  position: relative;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  top: 200px;
+  top: 169%;
 }
 .emoji {
   font-size: 69px;
