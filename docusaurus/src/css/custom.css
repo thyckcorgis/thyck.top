@@ -47,8 +47,9 @@
 /* LETTER ANIMATION */
 .imgBox {
   height: 210px;
+  width: 210px;
   border-radius: 50%;
-  align-items: center;
+  /* align-self: center; */
 }
 
 .personImg {
