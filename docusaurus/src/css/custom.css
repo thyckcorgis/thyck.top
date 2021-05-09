@@ -43,3 +43,31 @@
   font-family: "Montserrat";
   font-size: 20px;
 }
+
+.personImg {
+  transition: 0.5s ease;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.personImg:hover {
+  height: 205px;
+  width: 205px;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: blur(2px);
+  opacity: 50%;
+}
+
+.letter {
+  animation: letterDraw 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes letterDraw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

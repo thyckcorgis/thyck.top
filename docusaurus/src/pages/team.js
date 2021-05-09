@@ -16,7 +16,7 @@ const Svg = ({ title, pathD, letter }) => (
     alt={title}
   >
     <path
-      className={clsx(styles.letter, letter)}
+      className={clsx("letter", letter)}
       d={pathD}
       stroke="white"
       strokeWidth="3"
@@ -118,35 +118,21 @@ function Team({
   pathD,
   letter,
 }) {
-  const [isShown, setIsShown] = useState(false);
   return (
     <div className={clsx("col col--6")}>
-      <div
-        className="text--center"
-        onMouseOver={() => setIsShown(true)}
-        onMouseLeave={() => setIsShown(false)}
-      >
+      <div className="text--center">
         <div>
-          {isShown ? (
-            <>
-              <div className={styles.emojiBox}>
-                <p className={styles.emoji}>{altTitle}</p>
-              </div>
-              <Svg key={title} pathD={pathD} title={title} letter={letter} />
-            </>
-          ) : null}
-          <img
-            className={clsx(isShown ? styles.personImgHover : styles.personImg)}
-            src={url}
-            alt={title}
-          />
+          <div className={styles.emojiBox}>
+            <p className={styles.emoji}>{altTitle}</p>
+          </div>
+          <img className="personImg" src={url} alt={title} />
         </div>
       </div>
       <div className="text--center padding-horiz--md">
         <div>
           <div>
             <h3>{title}</h3>
-            <p className="body">{isShown ? altDescription : description}</p>
+            <p className="body">{description}</p>
           </div>
         </div>
       </div>
