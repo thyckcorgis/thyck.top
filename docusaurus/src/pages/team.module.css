@@ -11,6 +11,10 @@
   }
 }
 
+.flex.row {
+  flex-direction: row;
+}
+
 .person {
   display: block;
   align-items: center;
