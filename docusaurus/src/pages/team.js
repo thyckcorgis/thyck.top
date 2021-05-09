@@ -125,6 +125,7 @@ function Team({
           <div className={styles.emojiBox}>
             <p className={styles.emoji}>{altTitle}</p>
           </div>
+          <Svg key={title} pathD={pathD} title={title} letter={letter} />
           <img className="personImg" src={url} alt={title} />
         </div>
       </div>
