@@ -53,14 +53,12 @@
 .imgBox {
   height: 210px;
   width: 210px;
+  margin: auto;
   border-radius: 50%;
-  align-items: center;
 }
 
 .personImg {
   transition: 0.5s ease;
-  height: 200px;
-  width: 200px;
   border-radius: 50%;
   opacity: 1;
 }
@@ -76,11 +74,14 @@
 
 .emojiBox {
   position: relative;
-  height: 200px;
-  width: 200px;
   border-radius: 50%;
-  top: 169%;
+  top: -10%;
 }
+
+.personRow {
+  justify-content: center;
+}
+
 .emoji {
   font-size: 69px;
   text-align: center;
@@ -88,16 +89,12 @@
 }
 
 .imgBox:hover .personImg {
-  height: 205px;
-  width: 205px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: blur(2px);
   opacity: 50%;
 }
 
 .imgBox:hover .letterSvg {
-  height: 205px;
-  width: 205px;
   display: inline;
 }
 
