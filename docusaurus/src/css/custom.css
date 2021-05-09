@@ -10,12 +10,12 @@
 /* COLOURS */
 :root {
   --ifm-color-primary: #f4b670;
-  --ifm-color-primary-dark: #dba363;
-  --ifm-color-primary-darker: #c08e55;
-  --ifm-color-primary-darkest: #aa7e4c;
-  --ifm-color-primary-light: #ffbb6d;
-  --ifm-color-primary-lighter: #ffcd94;
-  --ifm-color-primary-lightest: #fcd3a5;
+  --ifm-color-primary-dark: #f1a54f;
+  --ifm-color-primary-darker: #ef942e;
+  --ifm-color-primary-darkest: #e78312;
+  --ifm-color-primary-light: #f7c791;
+  --ifm-color-primary-lighter: #f8cfa2;
+  --ifm-color-primary-lightest: #fce9d3;
   --ifm-code-font-size: 95%;
 }
 
@@ -54,8 +54,17 @@
   height: 200px;
   width: 200px;
   margin: auto;
-  margin-bottom: 20%;
+  margin-bottom: 25%;
   border-radius: 50%;
+  animation: flipX 0.75s ease both;
+  animation-delay: 0s;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: flipX;
 }
 
 .personImg {
@@ -88,14 +97,17 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: blur(2px);
   opacity: 50%;
+  transform: scale(1.1);
 }
 
 .imgBox:hover .letterSvg {
   display: inline;
+  transform: scale(1.1);
 }
 
 .imgBox:hover .emoji {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .letter {
@@ -106,5 +118,30 @@
 @keyframes letterDraw {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+/* FLIPPING ANIMATION */
+
+@keyframes flipX {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: perspective(400px) rotateY(90deg);
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) rotateY(-20deg);
+  }
+  60% {
+    opacity: 1;
+    transform: perspective(400px) rotateY(10deg);
+  }
+  80% {
+    transform: perspective(400px) rotateY(5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px);
   }
 }
