@@ -12,19 +12,6 @@
   min-height: 100vh;
 }
 
-.emojiBox {
-  position: relative;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  top: 169%;
-}
-.emoji {
-  font-size: 69px;
-  text-align: center;
-  width: 100%;
-}
-
 /* LETTERS */
 .letterC {
   stroke-dasharray: 1304.1647949218756942069;

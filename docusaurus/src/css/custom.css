@@ -70,15 +70,26 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  z-index: 1;
   position: absolute;
   display: none;
+}
+
+.emojiBox {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  top: 169%;
+}
+.emoji {
+  font-size: 69px;
+  text-align: center;
+  width: 100%;
 }
 
 .imgBox:hover .personImg {
   height: 205px;
   width: 205px;
-  z-index: -1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: blur(2px);
   opacity: 50%;

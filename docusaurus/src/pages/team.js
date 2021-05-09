@@ -87,8 +87,8 @@ function Team({ title, altTitle, url, description, pathD, letter }) {
   return (
     <div className={clsx("col col--6")}>
       <div className="imgBox">
-        <div className={styles.emojiBox}>
-          <p className={styles.emoji}>{altTitle}</p>
+        <div className="emojiBox">
+          <p className="emoji">{altTitle}</p>
         </div>
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="personImg" src={url} alt={title} />
