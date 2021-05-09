@@ -54,6 +54,7 @@
   height: 210px;
   width: 210px;
   margin: auto;
+  margin-bottom: 20%;
   border-radius: 50%;
 }
 
@@ -79,10 +80,11 @@
 .emoji {
   position: relative;
   border-radius: 50%;
-  top: -10%;
+  top: -30%;
   font-size: 69px;
   text-align: center;
   width: 100%;
+  display: none;
 }
 
 .imgBox:hover .personImg {
@@ -93,6 +95,10 @@
 
 .imgBox:hover .letterSvg {
   display: inline;
+}
+
+.imgBox:hover .emoji {
+  display: inline-block;
 }
 
 .letter {
