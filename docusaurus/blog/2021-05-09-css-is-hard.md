@@ -12,6 +12,4 @@ I hate CSS (Centering Stuff Sucks).
 
 <!--truncate-->
 
-Get ready to see some thyckness because the Thyck Corgis are here. Follow us through our journey of making software projects.
-
 Why is flexbox not cooperating. Not a big flex smh.
