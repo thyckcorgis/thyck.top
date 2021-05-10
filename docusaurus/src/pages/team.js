@@ -19,7 +19,7 @@ const Svg = ({ title, pathD, letter }) => (
     <path
       className={clsx("letter", letter)}
       d={pathD}
-      stroke="white"
+      stroke="var(--ifm-font-color-base)"
       strokeWidth="5"
     ></path>
   </svg>
