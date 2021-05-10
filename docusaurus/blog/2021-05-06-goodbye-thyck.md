@@ -12,4 +12,6 @@ Some
 
 <!--truncate-->
 
-body once told me
+
+body once told me  
+![Thyck Corgis Logo](/img/logo.svg)

@@ -8,7 +8,8 @@ author_image_url: https://avatars.githubusercontent.com/u/49956345?v=4
 tags: [css, thyck, hard]
 ---
 
-I hate CSS (Centering Stuff Sucks).
+I hate CSS (Centering Stuff Sucks).  
+![Thyck Corgis Logo](/img/logo.svg)
 
 <!--truncate-->
 
