@@ -113,7 +113,9 @@ export default function Teampage() {
     >
       <section className={styles.person}>
         <div className="container">
-          <p className="title">Meet the people behind Thyck Corgis.</p>
+          <div className="header">
+            <p className="title">Meet the people behind Thyck Corgis.</p>
+          </div>
           <div className="row">
             {TeamList.map((props, idx) => (
               <Team key={idx} {...props} />

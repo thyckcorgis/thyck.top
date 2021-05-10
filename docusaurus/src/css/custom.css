@@ -169,3 +169,27 @@
     opacity: 1;
   }
 }
+
+/* HEADER ANIMATION */
+.header {
+  animation: slideInLeft 0.75s ease both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
