@@ -31,8 +31,8 @@ module.exports = {
           to: "/projects",
           label: "Projects",
           items: [
-            { label: "Wapp", href: "..." },
-            { label: "Heart 2 Heart", href: "..." },
+            { label: "Wapp", href: "/wapp" },
+            { label: "Heart 2 Heart", href: "/h2h" },
           ],
         },
         {
