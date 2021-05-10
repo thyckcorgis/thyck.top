@@ -232,7 +232,7 @@ html[data-theme="dark"] {
   background: white;
   height: 4px;
   width: 1000px;
-  margin: 0px 0 25px 0;
+  margin-bottom: 25px;
 }
 
 @keyframes slideInLeft {
