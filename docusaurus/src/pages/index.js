@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 
 export default function () {
   return (
-    <Layout title="We are thyck" description="Thyck Corgis' Official Website">
+    <Layout description="Thyck Corgis' Official Website">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <p className="title text-left slide-in-left">
