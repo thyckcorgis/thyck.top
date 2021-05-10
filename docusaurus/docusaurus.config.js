@@ -28,11 +28,10 @@ module.exports = {
       items: [
         {
           position: "left",
-          to: "/projects",
           label: "Projects",
           items: [
-            { label: "Wapp", href: "/wapp" },
-            { label: "Heart 2 Heart", href: "/h2h" },
+            { label: "Wapp", href: "/projects/wapp" },
+            { label: "Heart 2 Heart", href: "/projects/h2h" },
           ],
         },
         {
