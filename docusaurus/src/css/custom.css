@@ -231,7 +231,7 @@ html[data-theme="dark"] {
 .headerLine {
   background: white;
   height: 4px;
-  width: 1000px;
+  width: 95%;
   margin-bottom: 25px;
 }
 
