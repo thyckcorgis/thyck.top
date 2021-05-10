@@ -13,7 +13,7 @@ const Svg = ({ title, pathD, letter }) => (
     viewBox="0 0 500 500"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="letterSvg"
+    className="letter-svg"
     alt={title}
   >
     <path
@@ -92,9 +92,12 @@ const TeamList = [
 function Team({ title, altTitle, url, description, pathD, letter, delay }) {
   return (
     <div className={clsx("col col--3")}>
-      <div className="imgBox" style={{ animationDelay: { delay } }}>
+      <div
+        className="img-circle flip-in-x"
+        style={{ animationDelay: { delay } }}
+      >
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
-        <img className="personImg" src={url} alt={title} />
+        <img className="person-img" src={url} alt={title} />
         <p className="emoji">{altTitle}</p>
       </div>
       <p
@@ -118,11 +121,14 @@ export default function Teampage() {
     >
       <section className={styles.person}>
         <div className="container">
-          <p className="title header">Meet the people behind Thyck Corgis.</p>
+          <p className="title slide-in-left">
+            Meet the people behind Thyck Corgis.
+          </p>
           <div
-            className="headerLine header"
+            className="headerLine slide-in-left"
             style={{ animationDelay: "0.5s" }}
           />
+          <div style={{ height: "100px" }} />
           <div className="row">
             {TeamList.map((props, idx) => (
               <Team key={idx} {...props} />
