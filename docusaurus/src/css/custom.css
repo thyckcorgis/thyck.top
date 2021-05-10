@@ -33,7 +33,7 @@ html[data-theme="dark"] {
 
 /* TEXT */
 .title {
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-decoration: none;
   font-family: "Montserrat";
   font-size: 56px;
@@ -108,7 +108,7 @@ html[data-theme="dark"] {
 }
 
 .emoji {
-  /* position: relative; */
+  position: relative;
   top: -30%;
   font-size: 69px;
   text-align: center;
@@ -224,7 +224,7 @@ html[data-theme="dark"] {
   background: white;
   height: 4px;
   width: 1000px;
-  margin: 25px 0 25px 0;
+  margin: 0px 0 25px 0;
   margin-left: auto;
   margin-right: auto;
 }
