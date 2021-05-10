@@ -19,6 +19,12 @@
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme="dark"] {
+  --ifm-color-primary: #f4b670;
+  --ifm-color-primary-dark: #f1a54f;
+  /* any other colors you wish to overwrite */
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -151,7 +157,7 @@
 /* EMOJI ANIMATION */
 
 /* TEXT ANIMATION */
-.textBox {
+.fadeIn {
   opacity: 0;
   animation: fadeIn 0.75s ease both;
   animation-duration: 0.75s;
@@ -181,6 +187,15 @@
   animation-fill-mode: both;
   animation-play-state: running;
   animation-name: slideInLeft;
+}
+
+.headerLine {
+  background: var(--ifm-color-primary-lightest);
+  height: 4px;
+  width: 1000px;
+  margin: 25px 0 100px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes slideInLeft {
