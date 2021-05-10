@@ -266,10 +266,6 @@ html[data-theme="dark"] {
   animation-direction: alternate;
 }
 
-.iPhoneBox img:hover {
-  transition: scale(1.1);
-}
-
 @keyframes imgFade {
   0% {
     opacity: 1;
