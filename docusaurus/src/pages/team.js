@@ -93,12 +93,12 @@ function Team({ title, altTitle, url, description, pathD, letter, delay }) {
   return (
     <div className={clsx("col col--3")}>
       <div
-        className="img-circle flip-in-x"
+        className="img-circle centered flip-in-x"
         style={{ animationDelay: { delay } }}
       >
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="person-img" src={url} alt={title} />
-        <p className="emoji">{altTitle}</p>
+        <p className="emoji centered">{altTitle}</p>
       </div>
       <p
         className="body text-bold fadeIn"
@@ -125,7 +125,7 @@ export default function Teampage() {
             Meet the people behind Thyck Corgis.
           </p>
           <div
-            className="headerLine slide-in-left"
+            className="headerLine centered slide-in-left"
             style={{ animationDelay: "0.5s" }}
           />
           <div style={{ height: "69px" }} />

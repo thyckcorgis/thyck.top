@@ -12,10 +12,10 @@ export default function AboutPage() {
       <div className="container">
         <p className="title slide-in-left"> Through Thyck and Thin</p>
         <div
-          className="headerLine slide-in-left"
+          className="headerLine centered slide-in-left"
           style={{ animationDelay: "0.5s" }}
         />
-        <div className="text-box text--center">
+        <div className="text-box centered">
           <p className="body fadeIn" style={{ animationDelay: "1s" }}>
             As a team of programmers, but first, friends, our team was not
             formed without humble beginnings. Founded in October, 2020, Thyck
@@ -26,7 +26,7 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="fadeIn" style={{ animationDelay: "1.5s" }}>
-          <img className="img-rectangle " src="/img/uaec.jpg" />
+          <img className="img-rectangle centered" src="/img/uaec.jpg" />
         </div>
       </div>
     </Layout>

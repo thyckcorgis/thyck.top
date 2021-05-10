@@ -7,6 +7,10 @@
 
 /* You can override the default Infima variables here. */
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* COLOURS */
 :root {
   --ifm-color-primary: #f4b670;
@@ -57,16 +61,12 @@ html[data-theme="dark"] {
 /* CONTAINERS */
 .text-box {
   width: 70%;
-  margin-right: auto;
-  margin-left: auto;
 }
 .img-rectangle {
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 50%;
   height: auto;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -74,7 +74,6 @@ html[data-theme="dark"] {
 .img-circle {
   height: 200px;
   width: 200px;
-  margin: auto;
   margin-bottom: 25%;
   border-radius: 50%;
 }
@@ -112,8 +111,6 @@ html[data-theme="dark"] {
   top: -30%;
   font-size: 69px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   opacity: 0;
   transition: 0.5s linear both;
@@ -219,20 +216,39 @@ html[data-theme="dark"] {
   animation-play-state: running;
   animation-name: slideInLeft;
 }
+.slide-in-right {
+  animation: slideInRight 0.75s ease both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: slideInLeft;
+}
 
 .headerLine {
   background: white;
   height: 4px;
   width: 1000px;
   margin: 0px 0 25px 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @keyframes slideInLeft {
   0% {
     opacity: 0;
     transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
   }
   100% {
     opacity: 1;
@@ -264,6 +280,7 @@ html[data-theme="dark"] {
   animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-direction: alternate;
+  animation-delay: 2s;
 }
 
 @keyframes imgFade {
