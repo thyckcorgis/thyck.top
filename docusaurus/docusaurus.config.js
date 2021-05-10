@@ -17,6 +17,7 @@ module.exports = {
         lightIcon: "🌝",
       },
     },
+    image: "img/logo.svg",
     navbar: {
       title: "Thyck Corgis",
       logo: {
@@ -29,6 +30,10 @@ module.exports = {
           position: "left",
           to: "/projects",
           label: "Projects",
+          items: [
+            { label: "Wapp", href: "..." },
+            { label: "Heart 2 Heart", href: "..." },
+          ],
         },
         {
           position: "left",
@@ -49,7 +54,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: "dark",
+      // style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Thyck Corgis. Built with Docusaurus.`,
     },
   },
