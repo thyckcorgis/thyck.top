@@ -128,7 +128,7 @@ export default function Teampage() {
             className="headerLine slide-in-left"
             style={{ animationDelay: "0.5s" }}
           />
-          <div style={{ height: "100px" }} />
+          <div style={{ height: "69px" }} />
           <div className="row">
             {TeamList.map((props, idx) => (
               <Team key={idx} {...props} />
