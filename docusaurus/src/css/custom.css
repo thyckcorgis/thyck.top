@@ -149,3 +149,23 @@
 }
 
 /* EMOJI ANIMATION */
+
+/* TEXT ANIMATION */
+.textBox {
+  opacity: 0;
+  animation: fadeIn 0.75s ease both;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}

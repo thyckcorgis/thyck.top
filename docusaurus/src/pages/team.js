@@ -90,13 +90,17 @@ const TeamList = [
 function Team({ title, altTitle, url, description, pathD, letter, delay }) {
   return (
     <div className={clsx("col col--3")}>
+      {/* add a delay here */}
       <div className="imgBox">
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="personImg" src={url} alt={title} />
         <p className="emoji">{altTitle}</p>
       </div>
-      <p className="body text-bold">{title}</p>
-      <p className="body">{description}</p>
+      {/* add a delay here */}
+      <div className="textBox">
+        <p className="body text-bold">{title}</p>
+        <p className="body">{description}</p>
+      </div>
     </div>
   );
 }
