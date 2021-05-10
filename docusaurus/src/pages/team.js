@@ -103,7 +103,9 @@ function Team({
       <div className="img-circle centered flip-in-x" style={{ animationDelay }}>
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="person-img" src={url} alt={title} />
-        <p className="emoji centered">{altTitle}</p>
+        <p className="emoji centered">
+          {String.fromCodePoint(0x1f449) + " " + String.fromCodePoint(0x1f448)}
+        </p>
       </div>
       <p className="body text-bold fadeIn" style={{ animationDelay }}>
         {title}

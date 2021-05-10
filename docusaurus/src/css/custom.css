@@ -113,7 +113,7 @@ html[data-theme="dark"] {
   text-align: center;
   width: 100%;
   opacity: 0;
-  transition: 0.5s linear both;
+  transition: all 0.5s linear;
   animation-name: pwease;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -174,13 +174,13 @@ html[data-theme="dark"] {
 /* EMOJI ANIMATION */
 @keyframes pwease {
   0% {
-    letter-spacing: -15px;
+    letter-spacing: -20px;
   }
   50% {
-    letter-spacing: 4px;
+    letter-spacing: -10px;
   }
   100% {
-    letter-spacing: -15px;
+    letter-spacing: -20px;
   }
 }
 
