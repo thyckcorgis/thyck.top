@@ -23,16 +23,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.iPhoneBox {
-  height: 400px;
-  width: 400px;
-}
-
-.iPhoneSvg {
-  height: 1000px;
-  width: 1000px;
-  margin: -200px -200px -400px -200px;
-  /* border-style: solid; */
-  overflow: hidden;
-}
