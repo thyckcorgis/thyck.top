@@ -18,8 +18,7 @@ export default function () {
           <div
             className="headerLine slide-in-left"
             style={{
-              width: "350px",
-              background: "black",
+              background: "var(--ifm-hero-text-color)",
               animationDelay: "0.25s",
             }}
           />
