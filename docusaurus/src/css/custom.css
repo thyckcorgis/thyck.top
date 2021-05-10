@@ -38,7 +38,6 @@ html[data-theme="dark"] {
 /* TEXT */
 .title {
   padding: 1rem 0;
-  text-decoration: none;
   font-family: "Montserrat";
   font-size: 56px;
   text-align: center;
@@ -58,17 +57,18 @@ html[data-theme="dark"] {
   font-size: 20px;
   text-align: center;
 }
+
 /* CONTAINERS */
 .text-box {
   width: 70%;
 }
+
 .img-rectangle {
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 50%;
   height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .img-circle {
@@ -80,15 +80,7 @@ html[data-theme="dark"] {
 
 /* LETTER ANIMATION */
 .flip-in-x {
-  animation: flipX 0.75s ease both;
-  animation-delay: 0s;
-  animation-duration: 0.75s;
-  animation-timing-function: ease;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: both;
-  animation-play-state: running;
-  animation-name: flipX;
+  animation: flipX 0.75s ease 0s 1 normal both;
 }
 
 .person-img {
@@ -114,9 +106,7 @@ html[data-theme="dark"] {
   width: 100%;
   opacity: 0;
   transition: all 0.5s linear;
-  animation-name: pwease;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation: pwease 1s ease 0s infinite;
 }
 
 .img-circle:hover .person-img {
@@ -137,8 +127,7 @@ html[data-theme="dark"] {
 }
 
 .letter {
-  animation: letterDraw 1s ease;
-  animation-fill-mode: forwards;
+  animation: letterDraw 1s ease 0s 1 forwards;
 }
 
 @keyframes letterDraw {
@@ -187,15 +176,7 @@ html[data-theme="dark"] {
 /* TEXT ANIMATION */
 .fadeIn {
   opacity: 0;
-  animation: fadeIn 0.75s ease both;
-  animation-duration: 0.75s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: both;
-  animation-play-state: running;
-  animation-name: fadeIn;
+  animation: fadeIn 0.75s ease 0s 1 normal both;
 }
 
 @keyframes fadeIn {
@@ -206,30 +187,14 @@ html[data-theme="dark"] {
 
 /* HEADER ANIMATION */
 .slide-in-left {
-  animation: slideInLeft 0.75s ease both;
-  animation-duration: 0.75s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: both;
-  animation-play-state: running;
-  animation-name: slideInLeft;
+  animation: slideInLeft 0.75s ease 0s 1 normal both;
 }
 .slide-in-right {
-  animation: slideInRight 0.75s ease both;
-  animation-duration: 0.75s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: both;
-  animation-play-state: running;
-  animation-name: slideInLeft;
+  animation: slideInRight 0.75s ease 0s 1 normal both;
 }
 
 .headerLine {
-  background: white;
+  background: var(--ifm-font-color-base);
   height: 4px;
   width: 95%;
   margin-bottom: 25px;
@@ -275,12 +240,7 @@ html[data-theme="dark"] {
 }
 
 .iPhoneBox img.top {
-  animation-name: imgFade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-direction: alternate;
-  animation-delay: 2s;
+  animation: imgFade 5s ease-in-out 2s infinite alternate;
 }
 
 @keyframes imgFade {
