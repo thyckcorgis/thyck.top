@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/custom.css";
 import Layout from "@theme/Layout";
-import styles from "./team.module.css";
 
 export default function AboutPage() {
   return (
     <Layout
-      title="Our Thyck Team"
+      title="Our Corigin Story"
       description="Meet the people behind Thyck Corgis."
     >
       <div className="container">
