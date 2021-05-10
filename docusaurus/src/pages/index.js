@@ -3,22 +3,19 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 
-import PhoneWapp from "../../static/img/phone_wapp.svg";
-import PhoneH2H from "../../static/img/phone_h2h.svg";
-
 export default function () {
   return (
     <Layout title="We are thyck" description="Thyck Corgis' Official Website">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <p className="title text-left">
+          <p className="title text-left slide-in-left">
             HelloWo rld?
             <br />
             No.
             <br />
             Hello Thyck.
           </p>
-          <p className="body text-left">
+          <p className="body text-left fadeIn" style={{ animationDelay: "1s" }}>
             Thyck Corgis are back and better than ever, this time, in the form
             of a website. We make projects, we get t h y c k.
             <br />
@@ -29,9 +26,9 @@ export default function () {
             <button className="button">Heart 2 Heart</button>
           </div>
         </div>
-        <div className="iPhoneBox">
-          <PhoneWapp className={styles.iPhoneSvg} />
-          {/* <PhoneH2H className={styles.iPhoneSvg} /> */}
+        <div className="iPhoneBox fadeIn">
+          <img src="../../static/img/phone_wapp.png" className="bottom" />
+          <img src="../../static/img/phone_h2h.png" className="top" />
         </div>
       </header>
     </Layout>
