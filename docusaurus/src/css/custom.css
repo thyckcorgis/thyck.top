@@ -22,7 +22,6 @@
 html[data-theme="dark"] {
   --ifm-color-primary: #f4b670;
   --ifm-color-primary-dark: #f1a54f;
-  /* any other colors you wish to overwrite */
 }
 
 .docusaurus-highlight-code-line {
@@ -190,7 +189,7 @@ html[data-theme="dark"] {
 }
 
 .headerLine {
-  background: var(--ifm-color-primary-lightest);
+  background: red;
   height: 4px;
   width: 1000px;
   margin: 25px 0 100px 0;
