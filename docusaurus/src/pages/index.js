@@ -15,6 +15,14 @@ export default function () {
             <br />
             Hello Thyck.
           </p>
+          <div
+            className="headerLine slide-in-left"
+            style={{
+              width: "350px",
+              background: "black",
+              animationDelay: "0.25s",
+            }}
+          />
           <p className="body text-left fadeIn" style={{ animationDelay: "1s" }}>
             Thyck Corgis are back and better than ever, this time, in the form
             of a website. We make projects, we get t h y c k.
@@ -26,7 +34,7 @@ export default function () {
             <button className="button">Heart 2 Heart</button>
           </div>
         </div>
-        <div className="iPhoneBox fadeIn">
+        <div className="iPhoneBox fadeIn" style={{ animationDelay: "1s" }}>
           <img src="../../static/img/phone_wapp.png" className="bottom" />
           <img src="../../static/img/phone_h2h.png" className="top" />
         </div>
