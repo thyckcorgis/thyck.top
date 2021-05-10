@@ -29,12 +29,6 @@ const Svg = ({ title, pathD, letter }) => (
 const TeamList = [
   {
     title: "Charles Anchentai",
-    altTitle: (
-      <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
-      </>
-    ),
     url: "/img/charles.png",
     description: <>This is Charles</>,
     pathD:
@@ -44,12 +38,6 @@ const TeamList = [
   },
   {
     title: "Annette Loo",
-    altTitle: (
-      <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
-      </>
-    ),
     url: "/img/annette.png",
     description: <>This is Annette</>,
     pathD:
@@ -59,12 +47,6 @@ const TeamList = [
   },
   {
     title: "Will Chowokawy",
-    altTitle: (
-      <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
-      </>
-    ),
     url: "/img/will.png",
     description: <>This is Will</>,
     pathD:
@@ -74,12 +56,6 @@ const TeamList = [
   },
   {
     title: "Kim Juyoung",
-    altTitle: (
-      <>
-        {String.fromCodePoint(0x1f449)}
-        {String.fromCodePoint(0x1f448)}
-      </>
-    ),
     url: "/img/juyoung.png",
     description: <>This is Juyoung</>,
     pathD:
@@ -89,15 +65,7 @@ const TeamList = [
   },
 ];
 
-function Team({
-  title,
-  altTitle,
-  url,
-  description,
-  pathD,
-  letter,
-  animationDelay,
-}) {
+function Team({ title, url, description, pathD, letter, animationDelay }) {
   return (
     <div className={clsx("col col--3")}>
       <div className="img-circle centered flip-in-x" style={{ animationDelay }}>
