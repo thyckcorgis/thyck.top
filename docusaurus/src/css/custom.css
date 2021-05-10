@@ -81,7 +81,7 @@ html[data-theme="dark"] {
 /* LETTER ANIMATION */
 .flip-in-x {
   animation: flipX 0.75s ease both;
-  animation-delay: 0s !important;
+  animation-delay: 0s;
   animation-duration: 0.75s;
   animation-timing-function: ease;
   animation-iteration-count: 1;
