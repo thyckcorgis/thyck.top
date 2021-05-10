@@ -33,6 +33,7 @@ html[data-theme="dark"] {
 
 /* TEXT */
 .title {
+  padding: 2rem 0;
   text-decoration: none;
   font-family: "Montserrat";
   font-size: 56px;
@@ -53,14 +54,33 @@ html[data-theme="dark"] {
   font-size: 20px;
   text-align: center;
 }
+/* CONTAINERS */
+.text-box {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-rectangle {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 50%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-/* LETTER ANIMATION */
-.imgBox {
+.img-circle {
   height: 200px;
   width: 200px;
   margin: auto;
   margin-bottom: 25%;
   border-radius: 50%;
+}
+
+/* LETTER ANIMATION */
+.flip-in-x {
   animation: flipX 0.75s ease both;
   animation-delay: 0s !important;
   animation-duration: 0.75s;
@@ -72,13 +92,13 @@ html[data-theme="dark"] {
   animation-name: flipX;
 }
 
-.personImg {
+.person-img {
   transition: 0.5s ease;
   border-radius: 50%;
   opacity: 1;
 }
 
-.letterSvg {
+.letter-svg {
   transition: 0.5s ease;
   height: 200px;
   width: 200px;
@@ -88,32 +108,33 @@ html[data-theme="dark"] {
 }
 
 .emoji {
-  position: relative;
-  border-radius: 50%;
+  /* position: relative; */
   top: -30%;
   font-size: 69px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 0.5s linear both;
   animation-name: pwease;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 
-.imgBox:hover .personImg {
+.img-circle:hover .person-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: blur(2px);
   opacity: 50%;
   transform: scale(1.1);
 }
 
-.imgBox:hover .letterSvg {
+.img-circle:hover .letter-svg {
   display: inline;
   transform: scale(1.1);
 }
 
-.imgBox:hover .emoji {
+.img-circle:hover .emoji {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -154,6 +175,17 @@ html[data-theme="dark"] {
 }
 
 /* EMOJI ANIMATION */
+@keyframes pwease {
+  0% {
+    letter-spacing: -15px;
+  }
+  50% {
+    letter-spacing: 4px;
+  }
+  100% {
+    letter-spacing: -15px;
+  }
+}
 
 /* TEXT ANIMATION */
 .fadeIn {
@@ -176,7 +208,7 @@ html[data-theme="dark"] {
 }
 
 /* HEADER ANIMATION */
-.header {
+.slide-in-left {
   animation: slideInLeft 0.75s ease both;
   animation-duration: 0.75s;
   animation-timing-function: ease;
@@ -189,10 +221,10 @@ html[data-theme="dark"] {
 }
 
 .headerLine {
-  background: red;
+  background: white;
   height: 4px;
   width: 1000px;
-  margin: 25px 0 100px 0;
+  margin: 25px 0 25px 0;
   margin-left: auto;
   margin-right: auto;
 }
