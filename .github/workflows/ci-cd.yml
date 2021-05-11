@@ -13,6 +13,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.THYCK_HOST }}
+          port: ${{ secrets.PORT }}
           username: ${{ secrets.THYCK_USERNAME }}
           key: ${{ secrets.PRIVATE_KEY }}
           script: build-thyck-top
