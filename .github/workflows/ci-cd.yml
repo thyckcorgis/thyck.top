@@ -1,0 +1,18 @@
+name: VM on Demand CI/CD
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build docusaurus project on our Thyck Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.THYCK_HOST }}
+          username: ${{ secrets.THYCK_USERNAME }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          script: build-thyck-top
