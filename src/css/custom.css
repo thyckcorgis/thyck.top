@@ -6,6 +6,14 @@
  */
 
 /* You can override the default Infima variables here. */
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 48px;
+  }
+  .body {
+    font-size: 12px;
+  }
+}
 
 .centered {
   margin-left: auto;
