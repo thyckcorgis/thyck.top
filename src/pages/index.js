@@ -27,7 +27,8 @@ export default function () {
             style={{ animationDelay: "1s" }}
           >
             Thyck Corgis are back and better than ever, this time, in the form
-            of a website. We make projects, we get t h y c k.
+            of a website. We make projects, we get
+            <p className="thyck-spacing">t h y c k.</p>
             <br />
             <br />
             Check out our latest app!
