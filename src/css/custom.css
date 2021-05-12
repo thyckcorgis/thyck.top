@@ -6,14 +6,6 @@
  */
 
 /* You can override the default Infima variables here. */
-@media screen and (max-width: 600px) {
-  .title {
-    font-size: 48px;
-  }
-  .body {
-    font-size: 12px;
-  }
-}
 
 .centered {
   margin-left: auto;
@@ -48,11 +40,6 @@ html[data-theme="dark"] {
   padding: 1rem 0;
   font-family: "Montserrat";
   font-size: 56px;
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-bold {
@@ -60,10 +47,8 @@ html[data-theme="dark"] {
 }
 
 .body {
-  text-decoration: none;
   font-family: "Montserrat";
   font-size: 20px;
-  text-align: center;
 }
 
 /* CONTAINERS */
@@ -263,5 +248,21 @@ html[data-theme="dark"] {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 48px;
+  }
+  .body {
+    font-size: 12px;
+    text-align: center;
+  }
+  .text-box {
+    width: 100%;
+  }
+  .iPhoneBox {
+    display: none;
   }
 }

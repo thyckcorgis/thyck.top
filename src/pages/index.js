@@ -8,7 +8,7 @@ export default function () {
     <Layout description="Thyck Corgis' Official Website">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <p className="title text-left slide-in-left">
+          <p className="title text--left slide-in-left">
             HelloWo rld?
             <br />
             No.
@@ -22,7 +22,10 @@ export default function () {
               animationDelay: "0.25s",
             }}
           />
-          <p className="body text-left fadeIn" style={{ animationDelay: "1s" }}>
+          <p
+            className="body text--left fadeIn"
+            style={{ animationDelay: "1s" }}
+          >
             Thyck Corgis are back and better than ever, this time, in the form
             of a website. We make projects, we get t h y c k.
             <br />

@@ -93,7 +93,7 @@ export default function Teampage() {
     >
       <section className={styles.person}>
         <div className="container">
-          <p className="title slide-in-left">
+          <p className="title text--center slide-in-left">
             Meet the people behind Thyck Corgis.
           </p>
           <div
