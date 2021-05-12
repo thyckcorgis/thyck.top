@@ -75,10 +75,13 @@ function Team({ title, url, description, pathD, letter, animationDelay }) {
           {String.fromCodePoint(0x1f449) + " " + String.fromCodePoint(0x1f448)}
         </p>
       </div>
-      <p className="body text-bold fadeIn" style={{ animationDelay }}>
+      <p
+        className="body text--bold text--center fadeIn"
+        style={{ animationDelay }}
+      >
         {title}
       </p>
-      <p className="body fadeIn " style={{ animationDelay }}>
+      <p className="body text--center fadeIn " style={{ animationDelay }}>
         {description}
       </p>
     </div>
