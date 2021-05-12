@@ -9,13 +9,19 @@ export default function AboutPage() {
       description="Meet the people behind Thyck Corgis."
     >
       <div className="container">
-        <p className="title slide-in-left"> Through Thyck and Thin</p>
+        <p className="title text--center slide-in-left">
+          {" "}
+          Through Thyck and Thin
+        </p>
         <div
           className="headerLine centered slide-in-left"
           style={{ animationDelay: "0.5s" }}
         />
         <div className="text-box centered">
-          <p className="body fadeIn" style={{ animationDelay: "1s" }}>
+          <p
+            className="body text--center fadeIn"
+            style={{ animationDelay: "1s" }}
+          >
             As a team of programmers, but first, friends, our team was not
             formed without humble beginnings. Founded in October, 2020, Thyck
             Corgis entered their very first programming competition. Little did
