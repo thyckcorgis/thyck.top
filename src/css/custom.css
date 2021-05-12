@@ -61,7 +61,7 @@ html[data-theme="dark"] {
 .img-circle {
   height: 200px;
   width: 200px;
-  margin-bottom: 10%;
+  margin-bottom: 15vh;
   border-radius: 50%;
 }
 
@@ -88,7 +88,6 @@ html[data-theme="dark"] {
   text-align: center;
   width: 100%;
   opacity: 0;
-  /* display: none; */
   transition: all 0.5s linear;
   animation: pwease 1s ease 0s infinite;
 }
@@ -103,7 +102,6 @@ html[data-theme="dark"] {
   transform: scale(1.1);
 }
 .img-circle:hover .emoji {
-  /* display: inline; */
   opacity: 1;
   transform: scale(1.1);
 }
@@ -238,6 +236,39 @@ html[data-theme="dark"] {
   }
 }
 
+@media screen and (max-width: 996px) {
+  .img-circle {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+  }
+  .row .col.col.col {
+    --ifm-col-width: 50%;
+  }
+  .emoji {
+    position: relative;
+    top: -30%;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    animation: pwease 1s ease 0s infinite;
+  }
+  @keyframes pwease {
+    0% {
+      letter-spacing: -8px;
+    }
+    50% {
+      letter-spacing: -10px;
+    }
+    100% {
+      letter-spacing: -8px;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .title {
     font-size: 48px;
@@ -256,7 +287,6 @@ html[data-theme="dark"] {
   .text-box {
     width: 70%;
   }
-
   .img-rectangle {
     display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -264,12 +294,35 @@ html[data-theme="dark"] {
     height: auto;
     margin: 20px auto;
   }
-
   .img-circle {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 25%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5vh;
     border-radius: 50%;
+  }
+  .row .col.col.col {
+    --ifm-col-width: 50%;
+  }
+  .emoji {
+    position: relative;
+    top: -30%;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    animation: pwease 1s ease 0s infinite;
+  }
+  @keyframes pwease {
+    0% {
+      letter-spacing: -2px;
+    }
+    50% {
+      letter-spacing: -9px;
+    }
+    100% {
+      letter-spacing: -2px;
+    }
   }
 }
 
@@ -280,5 +333,8 @@ html[data-theme="dark"] {
   .body {
     font-size: 12px;
     text-align: center;
+  }
+  .row .col.col.col {
+    --ifm-col-width: 100%;
   }
 }
