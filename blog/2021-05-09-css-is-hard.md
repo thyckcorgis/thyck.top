@@ -9,7 +9,7 @@ tags: [css, thyck, hard]
 ---
 
 I hate CSS (Centering Stuff Sucks).  
-![Thyck Corgis Logo](/img/logo.svg)
+![Thyck Corgis Logo](/img/svg/logo.svg)
 
 <!--truncate-->
 

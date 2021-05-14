@@ -22,8 +22,8 @@ module.exports = {
       title: "Thyck Corgis",
       logo: {
         alt: "Thyck Corgis Logo",
-        src: "img/logo_light.svg",
-        srcDark: "img/logo.svg",
+        src: "img/svg/logo_light.svg",
+        srcDark: "img/svg/logo.svg",
       },
       items: [
         {
@@ -64,14 +64,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/thyckcorgis/thyck-top/edit/master/",
+          editUrl: "https://github.com/thyckcorgis/thyck-top/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/thyckcorgis/thyck-top/edit/master/",
+          editUrl: "https://github.com/thyckcorgis/thyck-top/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

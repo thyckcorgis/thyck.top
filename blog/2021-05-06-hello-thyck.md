@@ -9,7 +9,7 @@ tags: [hello, thyck]
 ---
 
 Welcome to the first post in the Thyck Corgis blog! We are thyck.  
-![Thyck Corgis Logo](/img/logo.svg)
+![Thyck Corgis Logo](/img/svg/logo.svg)
 
 <!--truncate-->
 
