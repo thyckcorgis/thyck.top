@@ -14,4 +14,4 @@ Will took a spill on a hill :sob:
 
 I am not good at biking.
 
-![Spill](/img/spill.jpeg)
+![Spill](/img/blog/spill.jpeg)
