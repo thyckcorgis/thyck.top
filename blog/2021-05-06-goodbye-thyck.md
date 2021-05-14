@@ -12,6 +12,5 @@ Some
 
 <!--truncate-->
 
-
 body once told me  
-![Thyck Corgis Logo](/img/logo.svg)
+![Thyck Corgis Logo](/img/svg/logo.svg)
