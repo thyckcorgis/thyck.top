@@ -247,8 +247,8 @@ html[data-theme="dark"] {
     margin-bottom: 10vh;
     border-radius: 50%;
   }
-  .row.team {
-    --ifm-col-width: 50%;
+  .row .team {
+    --ifm-col-width: 50% !important;
   }
   .emoji {
     position: relative;
@@ -312,7 +312,7 @@ html[data-theme="dark"] {
     border-radius: 50%;
   }
   .row .team {
-    --ifm-col-width: 50%;
+    --ifm-col-width: 50% !important;
   }
   .emoji {
     position: relative;
@@ -345,7 +345,7 @@ html[data-theme="dark"] {
     font-size: 12px;
     text-align: center;
   }
-  .row.team {
-    --ifm-col-width: 100%;
+  .row .team {
+    --ifm-col-width: 100% !important;
   }
 }
