@@ -67,7 +67,7 @@ const TeamList = [
 
 function Team({ title, url, description, pathD, letter, animationDelay }) {
   return (
-    <div className={clsx("col col--3")}>
+    <div className={clsx("col col--3 team")}>
       <div className="img-circle centered flip-in-x" style={{ animationDelay }}>
         <Svg key={title} pathD={pathD} title={title} letter={letter} />
         <img className="person-img" src={url} alt={title} />

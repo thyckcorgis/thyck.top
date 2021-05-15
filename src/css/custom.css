@@ -247,7 +247,7 @@ html[data-theme="dark"] {
     margin-bottom: 10vh;
     border-radius: 50%;
   }
-  .row .col.col.col {
+  .row.team {
     --ifm-col-width: 50%;
   }
   .emoji {
@@ -311,7 +311,7 @@ html[data-theme="dark"] {
     margin-bottom: 5vh;
     border-radius: 50%;
   }
-  .row .col.col.col {
+  .row .team {
     --ifm-col-width: 50%;
   }
   .emoji {
@@ -345,7 +345,7 @@ html[data-theme="dark"] {
     font-size: 12px;
     text-align: center;
   }
-  .row .col.col.col {
+  .row.team {
     --ifm-col-width: 100%;
   }
 }
