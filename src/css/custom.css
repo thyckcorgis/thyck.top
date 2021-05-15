@@ -47,6 +47,10 @@ html[data-theme="dark"] {
   letter-spacing: 2px;
 }
 
+.owo {
+  color: var(--ifm-font-color-base);
+}
+
 /* CONTAINERS */
 .text-box {
   width: 70%;

@@ -9,7 +9,9 @@ export default function () {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <p className="title text--left slide-in-left">
-            HelloWo rld?
+            <span>Hell</span>
+            <span className="owo">oWo</span>
+            <span>rld?</span>
             <br />
             No.
             <br />
