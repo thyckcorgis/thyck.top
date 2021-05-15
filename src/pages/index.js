@@ -32,7 +32,6 @@ export default function () {
             of a website. We make projects, we get
             <p className="thyck-spacing">t h y c k.</p>
             <br />
-            <br />
             Check out our latest app!
           </p>
           <div>
