@@ -4,9 +4,16 @@
         <title>Thyck Corgis Blog</title>
         <link>https://thyck.top/blog</link>
         <description>Thyck Corgis Blog</description>
-        <lastBuildDate>Sun, 23 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello Again Thyck]]></title>
+            <link>https://thyck.top/blog/hello-thyck</link>
+            <guid>hello-thyck</guid>
+            <pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Thyck Corgis are back after a year-long hiatus.]]></description>
+        </item>
         <item>
             <title><![CDATA[New Grindr Pics for Charles and Will]]></title>
             <link>https://thyck.top/blog/new-grindr</link>
