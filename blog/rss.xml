@@ -9,8 +9,8 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Hello Again Thyck]]></title>
-            <link>https://thyck.top/blog/hello-thyck</link>
-            <guid>hello-thyck</guid>
+            <link>https://thyck.top/blog/hello-again-thyck</link>
+            <guid>hello-again-thyck</guid>
             <pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The Thyck Corgis are back after a year-long hiatus.]]></description>
         </item>
@@ -50,18 +50,18 @@
             <description><![CDATA[Today, Biker gang met up again to explore Whyte Ave.]]></description>
         </item>
         <item>
-            <title><![CDATA[New Bike!]]></title>
-            <link>https://thyck.top/blog/new-ride</link>
-            <guid>new-ride</guid>
-            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[I got a new bike from my dad!]]></description>
-        </item>
-        <item>
             <title><![CDATA[Chu Chu Appreciation Post]]></title>
             <link>https://thyck.top/blog/chu-chu</link>
             <guid>chu-chu</guid>
             <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chu Chu is so cute! I love her.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Bike!]]></title>
+            <link>https://thyck.top/blog/new-ride</link>
+            <guid>new-ride</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I got a new bike from my dad!]]></description>
         </item>
         <item>
             <title><![CDATA[Dale Appreciation Post]]></title>

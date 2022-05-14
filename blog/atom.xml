@@ -9,8 +9,8 @@
     <icon>https://thyck.top/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Hello Again Thyck]]></title>
-        <id>hello-thyck</id>
-        <link href="https://thyck.top/blog/hello-thyck"/>
+        <id>hello-again-thyck</id>
+        <link href="https://thyck.top/blog/hello-again-thyck"/>
         <updated>2022-05-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Thyck Corgis are back after a year-long hiatus.]]></summary>
     </entry>
@@ -50,18 +50,18 @@
         <summary type="html"><![CDATA[Today, Biker gang met up again to explore Whyte Ave.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Bike!]]></title>
-        <id>new-ride</id>
-        <link href="https://thyck.top/blog/new-ride"/>
-        <updated>2021-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I got a new bike from my dad!]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chu Chu Appreciation Post]]></title>
         <id>chu-chu</id>
         <link href="https://thyck.top/blog/chu-chu"/>
         <updated>2021-05-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chu Chu is so cute! I love her.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Bike!]]></title>
+        <id>new-ride</id>
+        <link href="https://thyck.top/blog/new-ride"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I got a new bike from my dad!]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dale Appreciation Post]]></title>
