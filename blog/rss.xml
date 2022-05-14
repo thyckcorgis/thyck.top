@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Thyck Corgis Blog</title>
+        <link>https://thyck.top/blog</link>
+        <description>Thyck Corgis Blog</description>
+        <lastBuildDate>Sun, 23 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[New Grindr Pics for Charles and Will]]></title>
+            <link>https://thyck.top/blog/new-grindr</link>
+            <guid>new-grindr</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Charles and Will needed new photos for their Grindr profiles.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Tinder Pics for Annette]]></title>
+            <link>https://thyck.top/blog/new-tinder-pic</link>
+            <guid>new-tinder-pic</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Annette needed new photos for her Tinder bio.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[These Corgis are Unbelibubbly Thyck]]></title>
+            <link>https://thyck.top/blog/bubble-butt-bikers</link>
+            <guid>bubble-butt-bikers</guid>
+            <pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Biker gang decides to explore trails and show off their enormous, giant, thyck, juicy...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Will took a spill on a hill]]></title>
+            <link>https://thyck.top/blog/will-took-a-spill</link>
+            <guid>will-took-a-spill</guid>
+            <pubDate>Thu, 13 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Will took a spill on a hill]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Biker Gang gets Bubble Tea]]></title>
+            <link>https://thyck.top/blog/bbt-bikers</link>
+            <guid>bbt-bikers</guid>
+            <pubDate>Thu, 13 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Today, Biker gang met up again to explore Whyte Ave.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Bike!]]></title>
+            <link>https://thyck.top/blog/new-ride</link>
+            <guid>new-ride</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I got a new bike from my dad!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chu Chu Appreciation Post]]></title>
+            <link>https://thyck.top/blog/chu-chu</link>
+            <guid>chu-chu</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chu Chu is so cute! I love her.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dale Appreciation Post]]></title>
+            <link>https://thyck.top/blog/dale-baby</link>
+            <guid>dale-baby</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dale is the goodest boy to have ever walked on this planet.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
+            <link>https://thyck.top/blog/ci-cd</link>
+            <guid>ci-cd</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[CI/CD has been set up for thyck.top!!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CSS is Hard]]></title>
+            <link>https://thyck.top/blog/css-is-hard</link>
+            <guid>css-is-hard</guid>
+            <pubDate>Sun, 09 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[I hate CSS (Centering Stuff Sucks).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hello Thyck]]></title>
+            <link>https://thyck.top/blog/hello-thyck</link>
+            <guid>hello-thyck</guid>
+            <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the first post in the Thyck Corgis blog! We are thyck.]]></description>
+        </item>
+    </channel>
+</rss>

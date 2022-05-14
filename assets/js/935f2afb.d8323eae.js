@@ -1,0 +1,1 @@
+(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[53],{9054:function(e){"use strict";e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","label":"We are Thyck!","href":"/docs/intro"}]},"permalinkToSidebar":{"/docs/intro":"tutorialSidebar"}}')}}]);

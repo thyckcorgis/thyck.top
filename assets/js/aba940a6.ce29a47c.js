@@ -1,0 +1,1 @@
+(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[5884],{638:function(c){"use strict";c.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ci-cd","name":"ci-cd","count":1,"permalink":"/blog/tags/ci-cd"}')}}]);

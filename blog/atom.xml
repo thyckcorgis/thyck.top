@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://thyck.top/blog</id>
+    <title>Thyck Corgis Blog</title>
+    <updated>2021-05-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://thyck.top/blog"/>
+    <subtitle>Thyck Corgis Blog</subtitle>
+    <icon>https://thyck.top/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[New Grindr Pics for Charles and Will]]></title>
+        <id>new-grindr</id>
+        <link href="https://thyck.top/blog/new-grindr"/>
+        <updated>2021-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Charles and Will needed new photos for their Grindr profiles.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Tinder Pics for Annette]]></title>
+        <id>new-tinder-pic</id>
+        <link href="https://thyck.top/blog/new-tinder-pic"/>
+        <updated>2021-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Annette needed new photos for her Tinder bio.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[These Corgis are Unbelibubbly Thyck]]></title>
+        <id>bubble-butt-bikers</id>
+        <link href="https://thyck.top/blog/bubble-butt-bikers"/>
+        <updated>2021-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Biker gang decides to explore trails and show off their enormous, giant, thyck, juicy...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Will took a spill on a hill]]></title>
+        <id>will-took-a-spill</id>
+        <link href="https://thyck.top/blog/will-took-a-spill"/>
+        <updated>2021-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Will took a spill on a hill]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biker Gang gets Bubble Tea]]></title>
+        <id>bbt-bikers</id>
+        <link href="https://thyck.top/blog/bbt-bikers"/>
+        <updated>2021-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, Biker gang met up again to explore Whyte Ave.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Bike!]]></title>
+        <id>new-ride</id>
+        <link href="https://thyck.top/blog/new-ride"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I got a new bike from my dad!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chu Chu Appreciation Post]]></title>
+        <id>chu-chu</id>
+        <link href="https://thyck.top/blog/chu-chu"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chu Chu is so cute! I love her.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dale Appreciation Post]]></title>
+        <id>dale-baby</id>
+        <link href="https://thyck.top/blog/dale-baby"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dale is the goodest boy to have ever walked on this planet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
+        <id>ci-cd</id>
+        <link href="https://thyck.top/blog/ci-cd"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CI/CD has been set up for thyck.top!!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS is Hard]]></title>
+        <id>css-is-hard</id>
+        <link href="https://thyck.top/blog/css-is-hard"/>
+        <updated>2021-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I hate CSS (Centering Stuff Sucks).]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Thyck]]></title>
+        <id>hello-thyck</id>
+        <link href="https://thyck.top/blog/hello-thyck"/>
+        <updated>2021-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the first post in the Thyck Corgis blog! We are thyck.]]></summary>
+    </entry>
+</feed>

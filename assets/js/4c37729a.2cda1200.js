@@ -1,0 +1,1 @@
+(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[3223],{3550:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"devops","name":"devops","count":1,"permalink":"/blog/tags/devops"}')}}]);
