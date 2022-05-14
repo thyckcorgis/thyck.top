@@ -1,5 +1,5 @@
 ---
-slug: hello-thyck
+slug: hello-again-thyck
 title: Hello Again Thyck
 author: Charles Ancheta
 author_title: A thyck developer
