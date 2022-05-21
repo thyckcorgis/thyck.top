@@ -31,7 +31,7 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="fadeIn" style={{ animationDelay: "1.5s" }}>
-          <img className="img-rectangle centered" src="/img/uaec.jpg" />
+          <img className="img-rectangle centered" src="/img/uaec.webp" />
         </div>
       </div>
     </Layout>

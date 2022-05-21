@@ -39,8 +39,8 @@ export default function () {
           </div>
         </div>
         <div className="iPhoneBox fadeIn" style={{ animationDelay: "1s" }}>
-          <img src="/img/phone_wapp.png" className="bottom" />
-          <img src="/img/phone_h2h.png" className="top" />
+          <img src="/img/phone_wapp.webp" className="bottom" />
+          <img src="/img/phone_h2h.webp" className="top" />
         </div>
       </header>
     </Layout>
