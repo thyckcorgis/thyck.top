@@ -5,6 +5,8 @@ import IconLightMode from "@theme/IconLightMode";
 import IconDarkMode from "@theme/IconDarkMode";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import { useState, useRef } from "react";
+import { useEffect } from "react";
 
 type Color = "dark" | "light";
 interface ColorModeToggleProps {
@@ -15,6 +17,14 @@ interface ColorModeToggleProps {
 
 function ColorModeToggle({ className, value, onChange }: ColorModeToggleProps) {
   const isBrowser = useIsBrowser();
+  const [checked, setChecked] = useState(() => value === "light");
+  const [focused, setFocused] = useState(false);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    onChange(checked ? "light" : "dark");
+  }, [checked]);
+
   const title = translate(
     {
       message: "Switch between dark and light mode (currently {mode})",
@@ -38,26 +48,46 @@ function ColorModeToggle({ className, value, onChange }: ColorModeToggleProps) {
   );
 
   return (
-    <div className={clsx(styles.toggle, className)}>
-      <button
-        className={clsx(
-          "clean-btn",
-          styles.toggleButton,
-          !isBrowser && styles.toggleButtonDisabled
-        )}
-        type="button"
-        onClick={() => onChange(value === "dark" ? "light" : "dark")}
-        disabled={!isBrowser}
-        title={title}
-        aria-label={title}
+    <div
+      className={clsx(styles.toggle, className, {
+        [styles.toggleChecked]: checked,
+        [styles.toggleFocused]: focused,
+        [styles.toggleDisabled]: !isBrowser,
+      })}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") inputRef.current?.click();
+      }}
+    >
+      <div
+        className={styles.toggleTrack}
+        role="button"
+        tabIndex={-1}
+        onClick={() => inputRef.current?.click()}
       >
-        <IconLightMode
-          className={clsx(styles.toggleIcon, styles.lightToggleIcon)}
-        />
-        <IconDarkMode
-          className={clsx(styles.toggleIcon, styles.darkToggleIcon)}
-        />
-      </button>
+        <div className={styles.toggleTrackCheck}>
+          <span className={styles.toggleIcon}>
+            <IconDarkMode />
+          </span>
+        </div>
+        <div className={styles.toggleTrackX}>
+          <span className={styles.toggleIcon}>
+            <IconLightMode />
+          </span>
+        </div>
+        <div className={styles.toggleTrackThumb} />
+      </div>
+
+      <input
+        ref={inputRef}
+        checked={checked}
+        type="checkbox"
+        title={title}
+        className={styles.toggleScreenReader}
+        aria-label={title}
+        onClick={() => setChecked(!checked)}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
+      />
     </div>
   );
 }
