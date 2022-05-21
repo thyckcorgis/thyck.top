@@ -84,7 +84,7 @@ function ColorModeToggle({ className, value, onChange }: ColorModeToggleProps) {
         title={title}
         className={styles.toggleScreenReader}
         aria-label={title}
-        onClick={() => setChecked(!checked)}
+        onChange={() => setChecked(!checked)}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
       />
