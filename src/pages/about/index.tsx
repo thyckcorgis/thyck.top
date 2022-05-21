@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/custom.css";
 import Layout from "@theme/Layout";
 
 export default function AboutPage() {

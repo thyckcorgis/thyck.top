@@ -12,10 +12,10 @@ module.exports = {
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
-      switchConfig: {
-        darkIcon: "🌚",
-        lightIcon: "🌝",
-      },
+      // switchConfig: {
+      //   darkIcon: "🌚",
+      //   lightIcon: "🌝",
+      // },
     },
     image: "img/logo.svg",
     navbar: {

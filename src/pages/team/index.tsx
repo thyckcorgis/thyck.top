@@ -1,12 +1,14 @@
-import React, { useState } from "react";
-import "../css/custom.css";
+import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./team.module.css";
 
 import clsx from "clsx";
 
-// DEFINE THE LETTER SVGS
-const Svg = ({ title, pathD, letter }) => (
+interface SvgProps {
+  pathD: string;
+  letter: string;
+}
+const Svg = ({ pathD, letter }: SvgProps) => (
   <svg
     width="200"
     height="200"
@@ -14,14 +16,13 @@ const Svg = ({ title, pathD, letter }) => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     className="letter-svg"
-    alt={title}
   >
     <path
       className={clsx("letter", letter)}
       d={pathD}
       stroke="var(--ifm-font-color-base)"
       strokeWidth="5"
-    ></path>
+    />
   </svg>
 );
 
@@ -69,7 +70,7 @@ function Team({ title, url, description, pathD, letter, animationDelay }) {
   return (
     <div className={clsx("col col--3 team")}>
       <div className="img-circle centered flip-in-x" style={{ animationDelay }}>
-        <Svg key={title} pathD={pathD} title={title} letter={letter} />
+        <Svg key={title} pathD={pathD} letter={letter} />
         <img className="person-img" src={url} alt={title} />
         <p className="emoji centered">
           {String.fromCodePoint(0x1f449) + " " + String.fromCodePoint(0x1f448)}
