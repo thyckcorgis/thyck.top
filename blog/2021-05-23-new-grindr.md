@@ -1,5 +1,4 @@
 ---
-slug: new-grindr
 title: New Grindr Pics for Charles and Will
 author: annette
 tags: [thyck, butt, thirst, trap]

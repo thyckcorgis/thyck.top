@@ -1,5 +1,4 @@
 ---
-slug: new-tinder-pic
 title: New Tinder Pics for Annette
 author: charles
 tags: [thyck, butt]

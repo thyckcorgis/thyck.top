@@ -1,5 +1,4 @@
 ---
-slug: css-is-hard
 title: CSS is Hard
 author: annette
 tags: [css, thyck, hard]

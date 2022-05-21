@@ -1,5 +1,4 @@
 ---
-slug: hello-thyck
 title: Hello Thyck
 author: charles
 tags: [hello, thyck]

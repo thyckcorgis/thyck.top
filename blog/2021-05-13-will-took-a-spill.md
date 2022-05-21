@@ -1,5 +1,4 @@
 ---
-slug: will-took-a-spill
 title: Will took a spill on a hill
 author: will
 tags: [biking]

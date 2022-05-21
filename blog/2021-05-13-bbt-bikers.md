@@ -1,5 +1,4 @@
 ---
-slug: bbt-bikers
 title: Biker Gang gets Bubble Tea
 author: annette
 tags: [thyck, biking, biker, gang, bbt]

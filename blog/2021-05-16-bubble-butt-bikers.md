@@ -1,5 +1,4 @@
 ---
-slug: bubble-butt-bikers
 title: These Corgis are Unbelibubbly Thyck
 author: annette
 tags: [thyck, biking, biker, gang, butt]
