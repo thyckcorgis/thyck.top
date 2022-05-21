@@ -5,6 +5,7 @@ module.exports = {
   url: "https://thyck.top",
   baseUrl: "/",
   onBrokenLinks: "throw",
+  trailingSlash: true,
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "thyckcorgis",
