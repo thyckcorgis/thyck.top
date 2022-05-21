@@ -1,1 +1,0 @@
-(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[6265],{6080:function(c){"use strict";c.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"chu-chu","name":"chu-chu","count":1,"permalink":"/blog/tags/chu-chu"}')}}]);

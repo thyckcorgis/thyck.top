@@ -1,1 +1,0 @@
-(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[1153],{4723:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"biking","name":"biking","count":4,"permalink":"/blog/tags/biking"}')}}]);

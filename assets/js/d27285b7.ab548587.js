@@ -1,1 +1,0 @@
-(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[4524],{2957:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"gang","name":"gang","count":3,"permalink":"/blog/tags/gang"}')}}]);

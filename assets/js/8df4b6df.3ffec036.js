@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[7330],{6354:function(t){t.exports=JSON.parse('{"permalink":"/blog/tags/bbt","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
