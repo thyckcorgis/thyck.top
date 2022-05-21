@@ -1,10 +1,7 @@
 ---
 slug: new-grindr
 title: New Grindr Pics for Charles and Will
-author: Annette Lau
-author_title: A thycker developer
-author_url: https://github.com/a-baguette
-author_image_url: https://avatars.githubusercontent.com/u/49956345?v=4
+author: annette
 tags: [thyck, butt, thirst, trap]
 ---
 

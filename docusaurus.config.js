@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "thyckcorgis",
-  projectName: "thyck-top",
+  projectName: "thyck.top",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -64,12 +64,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/thyckcorgis/thyck-top/edit/master/",
+          editUrl: "https://github.com/thyckcorgis/thyck.top/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/thyckcorgis/thyck-top/edit/master/",
+          editUrl: "https://github.com/thyckcorgis/thyck.top/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

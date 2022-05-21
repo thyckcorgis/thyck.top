@@ -1,10 +1,7 @@
 ---
 slug: hello-again-thyck
 title: Hello Again Thyck
-author: Charles Ancheta
-author_title: A thyck developer
-author_url: https://github.com/cbebe
-author_image_url: https://avatars.githubusercontent.com/u/55412395?s=400&v=4
+author: charles
 tags: [hello, thyck]
 ---
 
