@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[392],{5734:function(t){t.exports=JSON.parse('{"permalink":"/blog/tags/thyck/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/blog/tags/thyck","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
