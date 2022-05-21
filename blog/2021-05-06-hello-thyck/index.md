@@ -1,10 +1,6 @@
 ---
-slug: hello-thyck
 title: Hello Thyck
-author: Charles Ancheta
-author_title: A thyck developer
-author_url: https://github.com/cbebe
-author_image_url: https://avatars.githubusercontent.com/u/55412395?s=400&v=4
+authors: charles
 tags: [hello, thyck]
 ---
 

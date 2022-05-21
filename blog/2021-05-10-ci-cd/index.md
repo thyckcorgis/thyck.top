@@ -1,10 +1,6 @@
 ---
-slug: ci-cd
 title: CI/CD has been set up for Thyck.Top!!
-author: Charles Ancheta
-author_title: A thyck developer
-author_url: https://github.com/cbebe
-author_image_url: https://avatars.githubusercontent.com/u/55412395?s=400&v=4
+authors: charles
 tags: [thyck, ci-cd, devops]
 ---
 

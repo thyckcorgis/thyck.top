@@ -1,10 +1,6 @@
 ---
-slug: chu-chu
 title: Chu Chu Appreciation Post
-author: Annette Lau
-author_title: A thycker developer
-author_url: https://github.com/a-baguette
-author_image_url: https://avatars.githubusercontent.com/u/49956345?v=4
+authors: annette
 tags: [thyck, chu-chu, cat]
 ---
 
@@ -13,4 +9,4 @@ Chu Chu is so cute! I love her.
 <!--truncate-->
 
 She is a chubby QUEEN! This girl be slaying in the flower bed, struttin' the sidewalks, and killin' it every day. This is Chu Chu!
-![Chu-Chu](/img/blog/chuchu.webp)
+![Chu-Chu](./chuchu.webp)
