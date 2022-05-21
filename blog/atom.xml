@@ -132,22 +132,6 @@
         <category label="biking" term="biking"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chu Chu Appreciation Post]]></title>
-        <id>/2021/05/12/chu-chu</id>
-        <link href="https://thyck.top/blog/2021/05/12/chu-chu"/>
-        <updated>2021-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chu Chu is so cute! I love her.]]></summary>
-        <content type="html"><![CDATA[<p>Chu Chu is so cute! I love her.</p><p>She is a chubby QUEEN! This girl be slaying in the flower bed, struttin' the sidewalks, and killin' it every day. This is Chu Chu!
-<img loading="lazy" alt="Chu-Chu" src="/assets/images/chuchu-fbb3226a74b23fbd5326fd222564ea27.webp" width="1975" height="1482" class="img_tVdL"></p>]]></content>
-        <author>
-            <name>Annette Lau</name>
-            <uri>https://github.com/a-baguette</uri>
-        </author>
-        <category label="thyck" term="thyck"/>
-        <category label="chu-chu" term="chu-chu"/>
-        <category label="cat" term="cat"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New Bike!]]></title>
         <id>/2021/05/12/new-ride</id>
         <link href="https://thyck.top/blog/2021/05/12/new-ride"/>
@@ -164,19 +148,20 @@
         <category label="gang" term="gang"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
-        <id>/2021/05/10/ci-cd</id>
-        <link href="https://thyck.top/blog/2021/05/10/ci-cd"/>
-        <updated>2021-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CI/CD has been set up for thyck.top!!]]></summary>
-        <content type="html"><![CDATA[<p>CI/CD has been set up for <code>thyck.top</code>!!</p><p>No more pesky SSH-ing into servers just to update a blog post! In fact, I have published this without loggin into the server! Take that!</p>]]></content>
+        <title type="html"><![CDATA[Chu Chu Appreciation Post]]></title>
+        <id>/2021/05/12/chu-chu</id>
+        <link href="https://thyck.top/blog/2021/05/12/chu-chu"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chu Chu is so cute! I love her.]]></summary>
+        <content type="html"><![CDATA[<p>Chu Chu is so cute! I love her.</p><p>She is a chubby QUEEN! This girl be slaying in the flower bed, struttin' the sidewalks, and killin' it every day. This is Chu Chu!
+<img loading="lazy" alt="Chu-Chu" src="/assets/images/chuchu-fbb3226a74b23fbd5326fd222564ea27.webp" width="1975" height="1482" class="img_tVdL"></p>]]></content>
         <author>
-            <name>Charles Ancheta</name>
-            <uri>https://github.com/cbebe</uri>
+            <name>Annette Lau</name>
+            <uri>https://github.com/a-baguette</uri>
         </author>
         <category label="thyck" term="thyck"/>
-        <category label="ci-cd" term="ci-cd"/>
-        <category label="devops" term="devops"/>
+        <category label="chu-chu" term="chu-chu"/>
+        <category label="cat" term="cat"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dale Appreciation Post]]></title>
@@ -192,6 +177,21 @@
         <category label="thyck" term="thyck"/>
         <category label="dale" term="dale"/>
         <category label="cat" term="cat"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
+        <id>/2021/05/10/ci-cd</id>
+        <link href="https://thyck.top/blog/2021/05/10/ci-cd"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CI/CD has been set up for thyck.top!!]]></summary>
+        <content type="html"><![CDATA[<p>CI/CD has been set up for <code>thyck.top</code>!!</p><p>No more pesky SSH-ing into servers just to update a blog post! In fact, I have published this without loggin into the server! Take that!</p>]]></content>
+        <author>
+            <name>Charles Ancheta</name>
+            <uri>https://github.com/cbebe</uri>
+        </author>
+        <category label="thyck" term="thyck"/>
+        <category label="ci-cd" term="ci-cd"/>
+        <category label="devops" term="devops"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[CSS is Hard]]></title>

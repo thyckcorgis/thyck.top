@@ -101,18 +101,6 @@
             <category>biking</category>
         </item>
         <item>
-            <title><![CDATA[Chu Chu Appreciation Post]]></title>
-            <link>https://thyck.top/blog/2021/05/12/chu-chu</link>
-            <guid>/2021/05/12/chu-chu</guid>
-            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chu Chu is so cute! I love her.]]></description>
-            <content:encoded><![CDATA[<p>Chu Chu is so cute! I love her.</p><p>She is a chubby QUEEN! This girl be slaying in the flower bed, struttin' the sidewalks, and killin' it every day. This is Chu Chu!
-<img loading="lazy" alt="Chu-Chu" src="/assets/images/chuchu-fbb3226a74b23fbd5326fd222564ea27.webp" width="1975" height="1482" class="img_tVdL"></p>]]></content:encoded>
-            <category>thyck</category>
-            <category>chu-chu</category>
-            <category>cat</category>
-        </item>
-        <item>
             <title><![CDATA[New Bike!]]></title>
             <link>https://thyck.top/blog/2021/05/12/new-ride</link>
             <guid>/2021/05/12/new-ride</guid>
@@ -125,15 +113,16 @@
             <category>gang</category>
         </item>
         <item>
-            <title><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
-            <link>https://thyck.top/blog/2021/05/10/ci-cd</link>
-            <guid>/2021/05/10/ci-cd</guid>
-            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[CI/CD has been set up for thyck.top!!]]></description>
-            <content:encoded><![CDATA[<p>CI/CD has been set up for <code>thyck.top</code>!!</p><p>No more pesky SSH-ing into servers just to update a blog post! In fact, I have published this without loggin into the server! Take that!</p>]]></content:encoded>
+            <title><![CDATA[Chu Chu Appreciation Post]]></title>
+            <link>https://thyck.top/blog/2021/05/12/chu-chu</link>
+            <guid>/2021/05/12/chu-chu</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chu Chu is so cute! I love her.]]></description>
+            <content:encoded><![CDATA[<p>Chu Chu is so cute! I love her.</p><p>She is a chubby QUEEN! This girl be slaying in the flower bed, struttin' the sidewalks, and killin' it every day. This is Chu Chu!
+<img loading="lazy" alt="Chu-Chu" src="/assets/images/chuchu-fbb3226a74b23fbd5326fd222564ea27.webp" width="1975" height="1482" class="img_tVdL"></p>]]></content:encoded>
             <category>thyck</category>
-            <category>ci-cd</category>
-            <category>devops</category>
+            <category>chu-chu</category>
+            <category>cat</category>
         </item>
         <item>
             <title><![CDATA[Dale Appreciation Post]]></title>
@@ -145,6 +134,17 @@
             <category>thyck</category>
             <category>dale</category>
             <category>cat</category>
+        </item>
+        <item>
+            <title><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
+            <link>https://thyck.top/blog/2021/05/10/ci-cd</link>
+            <guid>/2021/05/10/ci-cd</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[CI/CD has been set up for thyck.top!!]]></description>
+            <content:encoded><![CDATA[<p>CI/CD has been set up for <code>thyck.top</code>!!</p><p>No more pesky SSH-ing into servers just to update a blog post! In fact, I have published this without loggin into the server! Take that!</p>]]></content:encoded>
+            <category>thyck</category>
+            <category>ci-cd</category>
+            <category>devops</category>
         </item>
         <item>
             <title><![CDATA[CSS is Hard]]></title>
