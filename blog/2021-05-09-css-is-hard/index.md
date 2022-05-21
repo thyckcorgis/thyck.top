@@ -1,6 +1,6 @@
 ---
 title: CSS is Hard
-author: annette
+authors: annette
 tags: [css, thyck, hard]
 ---
 

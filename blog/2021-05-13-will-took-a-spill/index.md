@@ -1,6 +1,6 @@
 ---
 title: Will took a spill on a hill
-author: will
+authors: will
 tags: [biking]
 ---
 
@@ -10,4 +10,4 @@ Will took a spill on a hill :sob:
 
 I am not good at biking.
 
-![Spill](/img/blog/spill.webp)
+![Spill](./spill.webp)

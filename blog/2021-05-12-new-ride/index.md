@@ -1,6 +1,6 @@
 ---
 title: New Bike!
-author: charles
+authors: charles
 tags: [thyck, biking, biker, gang]
 ---
 
@@ -10,4 +10,4 @@ I got a new bike from my dad!
 
 It's a 29" mountain bike from Walmart. It was pretty expensive, but now I can go F A S T.
 
-![bike](/img/blog/bike.webp)
+![bike](./bike.webp)

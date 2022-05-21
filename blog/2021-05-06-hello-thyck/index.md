@@ -1,6 +1,6 @@
 ---
 title: Hello Thyck
-author: charles
+authors: charles
 tags: [hello, thyck]
 ---
 

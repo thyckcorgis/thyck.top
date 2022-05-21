@@ -1,10 +1,11 @@
 ---
 title: Hello Again Thyck
-author: charles
+authors: charles
 tags: [hello, thyck]
 ---
 
 The Thyck Corgis are back after a year-long hiatus.
+
 ![Thyck Corgis Logo](/img/svg/logo.svg)
 
 <!--truncate-->

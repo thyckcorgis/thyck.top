@@ -1,6 +1,6 @@
 ---
 title: CI/CD has been set up for Thyck.Top!!
-author: charles
+authors: charles
 tags: [thyck, ci-cd, devops]
 ---
 

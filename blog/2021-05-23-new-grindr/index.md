@@ -1,6 +1,6 @@
 ---
 title: New Grindr Pics for Charles and Will
-author: annette
+authors: annette
 tags: [thyck, butt, thirst, trap]
 ---
 
@@ -10,5 +10,5 @@ Charles and Will needed new photos for their Grindr profiles.
 
 With the help of Annette, they took booty pics showing their (not so thyck) butt and doing some camera magic with it.
 
-![thirst](/img/blog/grindr1.webp)
-![trap](/img/blog/grindr2.webp)
+![thirst](./grindr1.webp)
+![trap](./grindr2.webp)
