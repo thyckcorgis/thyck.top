@@ -6,6 +6,8 @@ tags: [thyck, hard, script]
 
 I created a script to create a blog post!
 
+Update (May 23, 2022): `createBlog.js` is now published as an [npm package](https://www.npmjs.com/package/create-md-blog)!
+
 <!--truncate-->
 
 It's not very useful since you'd still have to deploy it through your local dev machine, but at least you won't have to copy-paste existing Markdown files anymore.
