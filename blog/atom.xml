@@ -13,7 +13,7 @@
         <link href="https://thyck.top/blog/2022/05/21/create-blog"/>
         <updated>2022-05-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I created a script to create a blog post!]]></summary>
-        <content type="html"><![CDATA[<p>I created a script to create a blog post!</p><p>It's not very useful since you'd still have to deploy it through your local dev machine, but at least you won't have to copy-paste existing Markdown files anymore.</p><div class="codeBlockContainer_OZ6D theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Oy7w"><pre tabindex="0" class="prism-code language-text codeBlock_bGVA thin-scrollbar"><code class="codeBlockLines_SC66"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[chrlz@mini ~/.../thyck.top]$ pnpm blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; thyck.top@0.0.0 blog ~/.../thyck.top</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; ./scripts/createBlog.js</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Who is creating this blog? › cbebe</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Title of the blog … Create Blog Script</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ URL slug for the blog … create-blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Pick existing tags › thyck, hard</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ List new tags (separated by commas) … script</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Date of blog › May 21 2022</span><br></span></code></pre><div class="buttonGroup_t9EJ"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_Vw1Q" aria-hidden="true"><svg class="copyButtonIcon_RQNO" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_z3MJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Here's another one with for the biker gang post:</p><div class="codeBlockContainer_OZ6D theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Oy7w"><pre tabindex="0" class="prism-code language-text codeBlock_bGVA thin-scrollbar"><code class="codeBlockLines_SC66"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[chrlz@mini ~/.../thyck.top]$ pnpm blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; thyck.top@0.0.0 blog ~/.../thyck.top</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; ./scripts/createBlog.js</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Who is creating this blog? › cbebe</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Title of the blog … Biker Gang 2022</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ URL slug for the blog … biker-gang-2022</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Pick existing tags › biking, biker, gang, butt</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ List new tags (separated by commas) … squat</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Date of blog › May 15 2022</span><br></span></code></pre><div class="buttonGroup_t9EJ"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_Vw1Q" aria-hidden="true"><svg class="copyButtonIcon_RQNO" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_z3MJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <content type="html"><![CDATA[<p>I created a script to create a blog post!</p><p>Update (May 23, 2022): <code>createBlog.js</code> is now published as an <a href="https://www.npmjs.com/package/create-md-blog" target="_blank" rel="noopener noreferrer">npm package</a>!</p><p>It's not very useful since you'd still have to deploy it through your local dev machine, but at least you won't have to copy-paste existing Markdown files anymore.</p><div class="codeBlockContainer_OZ6D theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Oy7w"><pre tabindex="0" class="prism-code language-text codeBlock_bGVA thin-scrollbar"><code class="codeBlockLines_SC66"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[chrlz@mini ~/.../thyck.top]$ pnpm blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; thyck.top@0.0.0 blog ~/.../thyck.top</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; ./scripts/createBlog.js</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Who is creating this blog? › cbebe</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Title of the blog … Create Blog Script</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ URL slug for the blog … create-blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Pick existing tags › thyck, hard</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ List new tags (separated by commas) … script</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Date of blog › May 21 2022</span><br></span></code></pre><div class="buttonGroup_t9EJ"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_Vw1Q" aria-hidden="true"><svg class="copyButtonIcon_RQNO" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_z3MJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Here's another one with for the biker gang post:</p><div class="codeBlockContainer_OZ6D theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Oy7w"><pre tabindex="0" class="prism-code language-text codeBlock_bGVA thin-scrollbar"><code class="codeBlockLines_SC66"><span class="token-line" style="color:#bfc7d5"><span class="token plain">[chrlz@mini ~/.../thyck.top]$ pnpm blog</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; thyck.top@0.0.0 blog ~/.../thyck.top</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; ./scripts/createBlog.js</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Who is creating this blog? › cbebe</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Title of the blog … Biker Gang 2022</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ URL slug for the blog … biker-gang-2022</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Pick existing tags › biking, biker, gang, butt</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ List new tags (separated by commas) … squat</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">✔ Date of blog › May 15 2022</span><br></span></code></pre><div class="buttonGroup_t9EJ"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_Vw1Q" aria-hidden="true"><svg class="copyButtonIcon_RQNO" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_z3MJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Charles Ancheta</name>
             <uri>https://github.com/cbebe</uri>
@@ -132,22 +132,6 @@
         <category label="biking" term="biking"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Bike!]]></title>
-        <id>/2021/05/12/new-ride</id>
-        <link href="https://thyck.top/blog/2021/05/12/new-ride"/>
-        <updated>2021-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I got a new bike from my dad!]]></summary>
-        <content type="html"><![CDATA[<p>I got a new bike from my dad!</p><p>It's a 29" mountain bike from Walmart. It was pretty expensive, but now I can go F A S T.</p><p><img loading="lazy" alt="bike" src="/assets/images/bike-41cfa84074bfc6bd51e77a5cf44aeb7c.webp" width="2057" height="1544" class="img_tVdL"></p>]]></content>
-        <author>
-            <name>Charles Ancheta</name>
-            <uri>https://github.com/cbebe</uri>
-        </author>
-        <category label="thyck" term="thyck"/>
-        <category label="biking" term="biking"/>
-        <category label="biker" term="biker"/>
-        <category label="gang" term="gang"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chu Chu Appreciation Post]]></title>
         <id>/2021/05/12/chu-chu</id>
         <link href="https://thyck.top/blog/2021/05/12/chu-chu"/>
@@ -164,19 +148,20 @@
         <category label="cat" term="cat"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dale Appreciation Post]]></title>
-        <id>/2021/05/10/dale-baby</id>
-        <link href="https://thyck.top/blog/2021/05/10/dale-baby"/>
-        <updated>2021-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dale is the goodest boy to have ever walked on this planet.]]></summary>
-        <content type="html"><![CDATA[<p>Dale is the goodest boy to have ever walked on this planet.</p><p>Every day, I miss Dale. Hopefully, I will be worthy of loving a cat as much as Dale loved me. He is my joy, my love, my guilt, and the pinnacle of goodness. This is Dale. I hope you love him as much as I do.</p><p><img loading="lazy" alt="Dale" src="/assets/images/dale-5cfb0e72b59638e9b99e709f493c79d9.webp" width="4032" height="3024" class="img_tVdL"></p>]]></content>
+        <title type="html"><![CDATA[New Bike!]]></title>
+        <id>/2021/05/12/new-ride</id>
+        <link href="https://thyck.top/blog/2021/05/12/new-ride"/>
+        <updated>2021-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I got a new bike from my dad!]]></summary>
+        <content type="html"><![CDATA[<p>I got a new bike from my dad!</p><p>It's a 29" mountain bike from Walmart. It was pretty expensive, but now I can go F A S T.</p><p><img loading="lazy" alt="bike" src="/assets/images/bike-41cfa84074bfc6bd51e77a5cf44aeb7c.webp" width="2057" height="1544" class="img_tVdL"></p>]]></content>
         <author>
-            <name>Annette Lau</name>
-            <uri>https://github.com/a-baguette</uri>
+            <name>Charles Ancheta</name>
+            <uri>https://github.com/cbebe</uri>
         </author>
         <category label="thyck" term="thyck"/>
-        <category label="dale" term="dale"/>
-        <category label="cat" term="cat"/>
+        <category label="biking" term="biking"/>
+        <category label="biker" term="biker"/>
+        <category label="gang" term="gang"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[CI/CD has been set up for Thyck.Top!!]]></title>
@@ -192,6 +177,21 @@
         <category label="thyck" term="thyck"/>
         <category label="ci-cd" term="ci-cd"/>
         <category label="devops" term="devops"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dale Appreciation Post]]></title>
+        <id>/2021/05/10/dale-baby</id>
+        <link href="https://thyck.top/blog/2021/05/10/dale-baby"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dale is the goodest boy to have ever walked on this planet.]]></summary>
+        <content type="html"><![CDATA[<p>Dale is the goodest boy to have ever walked on this planet.</p><p>Every day, I miss Dale. Hopefully, I will be worthy of loving a cat as much as Dale loved me. He is my joy, my love, my guilt, and the pinnacle of goodness. This is Dale. I hope you love him as much as I do.</p><p><img loading="lazy" alt="Dale" src="/assets/images/dale-5cfb0e72b59638e9b99e709f493c79d9.webp" width="4032" height="3024" class="img_tVdL"></p>]]></content>
+        <author>
+            <name>Annette Lau</name>
+            <uri>https://github.com/a-baguette</uri>
+        </author>
+        <category label="thyck" term="thyck"/>
+        <category label="dale" term="dale"/>
+        <category label="cat" term="cat"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[CSS is Hard]]></title>
