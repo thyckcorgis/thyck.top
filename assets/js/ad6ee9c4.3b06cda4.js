@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[8716],{1179:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/butt","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

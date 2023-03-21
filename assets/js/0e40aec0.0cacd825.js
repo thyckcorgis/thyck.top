@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[8509],{9834:function(t){t.exports=JSON.parse('{"permalink":"/blog/tags/gang","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[6988],{8047:function(t){t.exports=JSON.parse('{"label":"squat","permalink":"/blog/tags/squat","allTagsPath":"/blog/tags","count":1}')}}]);

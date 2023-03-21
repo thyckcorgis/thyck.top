@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[6340],{6266:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/thirst","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
