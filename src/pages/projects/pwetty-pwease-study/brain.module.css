@@ -1,0 +1,305 @@
+.corgiCentered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.corgiTitle {
+  font-family: "Montserrat";
+  font-size: 35px;
+  text-align: center;
+}
+
+/* CONTAINERS */
+.imgCircle {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 5%;
+  border-radius: 50%;
+}
+
+/* LETTER ANIMATION */
+.flipInX {
+  animation: flipX 0.75s ease 0s 1 normal both;
+}
+.corgiImg {
+  transition: 0.5s ease;
+  border-radius: 50%;
+  opacity: 1;
+}
+.emoji {
+  position: relative;
+  top: -70%;
+  font-size: 69px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s linear;
+  animation: pwease 1s ease 0s infinite;
+}
+
+@media (hover: hover) {
+  .imgCircle:hover .corgiImg {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+  }
+  .imgCircle:hover .emoji {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+@media (hover: none) {
+  .imgCircle .corgiImg {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+  }
+  .imgCircle .emoji {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+/* FLIPPING ANIMATION */
+@keyframes flipX {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: perspective(400px) rotateY(90deg);
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) rotateY(-20deg);
+  }
+  60% {
+    opacity: 1;
+    transform: perspective(400px) rotateY(10deg);
+  }
+  80% {
+    transform: perspective(400px) rotateY(5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px);
+  }
+}
+
+/* EMOJI ANIMATION */
+@keyframes pwease {
+  0% {
+    letter-spacing: -11px;
+  }
+  50% {
+    letter-spacing: -20px;
+  }
+  100% {
+    letter-spacing: -11px;
+  }
+}
+
+/* TEXT ANIMATION */
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.75s ease 0s 1 normal both;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+/* SHAKING ANIMATION */
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* HEADER ANIMATION */
+.slideInLeft {
+  animation: slideInLeft 0.75s ease 0s 1 normal both;
+}
+.slideInRight {
+  animation: slideInRight 0.75s ease 0s 1 normal both;
+}
+.headerLine {
+  background: black;
+  height: 4px;
+  width: 95%;
+  margin-bottom: 4vh;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* FADE IN ANIMATION */
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.75s ease 0s 1 normal both;
+}
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+/* RESPONSIVE SCREEN */
+@media screen and (max-width: 996px) {
+  .imgCircle {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10vh;
+    border-radius: 50%;
+  }
+  .emoji {
+    position: relative;
+    top: -40%;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    animation: pwease 1s ease 0s infinite;
+  }
+  @keyframes pwease {
+    0% {
+      letter-spacing: -8px;
+    }
+    50% {
+      letter-spacing: -10px;
+    }
+    100% {
+      letter-spacing: -8px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .corgiTitle {
+    font-size: 20px;
+    text-align: left;
+  }
+  .imgCircle {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+  }
+  .emoji {
+    position: relative;
+    top: -30%;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    animation: pwease 1s ease 0s infinite;
+  }
+  @keyframes pwease {
+    0% {
+      letter-spacing: -2px;
+    }
+    50% {
+      letter-spacing: -9px;
+    }
+    100% {
+      letter-spacing: -2px;
+    }
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .corgiTitle {
+    font-size: 35px;
+  }
+}
+
+.pulseNSpin {
+  animation: pulse 2s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.corgiButton {
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f4b670;
+  padding: 1rem;
+  animation: fadeIn 0.75s linear 1.5s 1 normal forwards;
+  opacity: 0;
+}
+
+@media (hover: hover) {
+  .corgiButton:hover {
+    opacity: 1;
+    animation: fadeIn 0.75s linear 1.5s 1 normal forwards, shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@media (hover: none) {
+  .corgiButton {
+    opacity: 1;
+
+    animation: fadeIn 0.75s linear 1.5s 1 normal forwards, shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+}
+
+.plsCenter {
+  display: flex;
+  justify-content: center;
+}

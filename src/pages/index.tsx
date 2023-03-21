@@ -1,11 +1,10 @@
-import React from "react";
-import clsx from "clsx";
-import Layout from "@theme/Layout";
-import styles from "./index.module.css";
+import Head from "@docusaurus/Head";
 import Link from "@docusaurus/Link";
 import useIsBrowser from "@docusaurus/useIsBrowser";
-import { useState } from "react";
-import { useEffect } from "react";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import React, { useEffect, useState } from "react";
+import styles from "./index.module.css";
 
 const HomePageTitle = () => (
   <p className="title text--left slide-in-left">
@@ -49,9 +48,12 @@ const IPhoneBox = () => {
   return isBrowser ? <DynamicIphoneBox /> : <StaticIphoneBox />;
 };
 
-export default function() {
+export default function () {
   return (
     <Layout description="Thyck Corgis' Official Website">
+      <Head>
+        <link rel="icon" href="/img/favicon.ico" />
+      </Head>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <HomePageTitle />

@@ -32,7 +32,14 @@ module.exports = {
           label: "Projects",
           items: [
             { label: "Wapp", href: "https://github.com/thyckcorgis/wapp" },
-            { label: "Heart 2 Heart", href: "https://github.com/thyckcorgis/h2h" },
+            {
+              label: "Heart 2 Heart",
+              href: "https://github.com/thyckcorgis/h2h",
+            },
+            {
+              label: "UP BRAIN BY 2%!!!",
+              href: "/projects/pwetty-pwease-study",
+            },
           ],
         },
         {
@@ -55,7 +62,9 @@ module.exports = {
     },
     footer: {
       // style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Thyck Corgis. Built with Docusaurus.`,
+      copyright: `Copyright © ${
+        new Date().getFullYear()
+      } Thyck Corgis. Built with Docusaurus.`,
     },
   },
   presets: [
