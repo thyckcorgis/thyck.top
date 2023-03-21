@@ -40,6 +40,10 @@ module.exports = {
               label: "UP BRAIN BY 2%!!!",
               href: "/projects/pwetty-pwease-study",
             },
+            {
+              label: "The Ramen Empire",
+              href: "/projects/the-ramen-empire",
+            },
           ],
         },
         {
