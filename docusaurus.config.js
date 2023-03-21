@@ -31,8 +31,8 @@ module.exports = {
           position: "left",
           label: "Projects",
           items: [
-            { label: "Wapp", href: "/projects/wapp" },
-            { label: "Heart 2 Heart", href: "/projects/h2h" },
+            { label: "Wapp", href: "https://github.com/thyckcorgis/wapp" },
+            { label: "Heart 2 Heart", href: "https://github.com/thyckcorgis/h2h" },
           ],
         },
         {

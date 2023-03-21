@@ -36,7 +36,7 @@ const DynamicIphoneBox = () => {
   }, []);
   return (
     <div className="iPhoneBox fadeIn" style={{ animationDelay: "1s" }}>
-      <Link to={"/projects/" + link}>
+      <Link to={"https://github.com/thyckcorgis/" + link}>
         <img src="/img/phone_wapp.webp" className="bottom" />
         <img src="/img/phone_h2h.webp" className="top" />
       </Link>
@@ -49,7 +49,7 @@ const IPhoneBox = () => {
   return isBrowser ? <DynamicIphoneBox /> : <StaticIphoneBox />;
 };
 
-export default function () {
+export default function() {
   return (
     <Layout description="Thyck Corgis' Official Website">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -81,7 +81,9 @@ export default function () {
               Check out our latest app!
             </div>
             <div className="fadeIn" style={{ animationDelay: "1.5s" }}>
-              <button className="button">Heart 2 Heart</button>
+              <Link to="https://github.com/thyckcorgis/h2h">
+                <button className="button">Heart 2 Heart</button>
+              </Link>
             </div>
           </div>
         </div>
