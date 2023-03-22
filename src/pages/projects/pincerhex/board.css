@@ -1,0 +1,68 @@
+:root {
+  --hex-size: 58px;
+  --hex-bg: #d8d4b9;
+  --hex-border-size: 1px;
+  --hex-border-bg: black;
+  --piece-size: calc(var(--hex-size)*0.5);
+}
+
+.board>.row {
+  display: flex;
+}
+
+.board .hex {
+  position: relative;
+  height: var(--hex-size);
+  width: var(--hex-size);
+  background: var(--hex-bg);
+  /* We cut the element in an hexagonal shape */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.board .hex::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: var(--hex-border-bg);
+  clip-path: polygon(
+      /* We first go around the pseudo element to recreate the hexagon */
+      50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%,
+      /* We make sure to close the hexagon and go back to the start */
+      50% 0%,
+      /* We then go down inside the hexagon (feel free to change the border size, here it is of 10px)*/
+      50% var(--hex-border-size),
+      /* We finally go around the pseudo element in reverse to carve a smaller hexagon inside */
+      var(--hex-border-size) calc(25% + var(--hex-border-size) * 0.5),
+      var(--hex-border-size) calc(75% + var(--hex-border-size) * -0.5),
+      50% calc(100% - var(--hex-border-size)),
+      calc(100% - var(--hex-border-size)) calc(75% + var(--hex-border-size) * -0.5),
+      calc(100% - var(--hex-border-size)) calc(25% + var(--hex-border-size) * 0.5),
+      50% var(--hex-border-size)
+  );
+}
+
+.board .piece-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.board .piece {
+  height: var(--piece-size);
+  width: var(--piece-size);
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #777;
+}
+
+.board .white {
+  background-color: #fff;
+}
+
+.board .black {
+  background-color: #000;
+}
