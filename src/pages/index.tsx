@@ -48,11 +48,11 @@ const IPhoneBox = () => {
   return isBrowser ? <DynamicIphoneBox /> : <StaticIphoneBox />;
 };
 
-export default function () {
+export default function() {
   return (
     <Layout description="Thyck Corgis' Official Website">
       <Head>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">

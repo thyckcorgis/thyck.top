@@ -7,17 +7,11 @@ module.exports = {
   onBrokenLinks: "throw",
   trailingSlash: true,
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "favicon.ico",
   organizationName: "thyckcorgis",
   projectName: "thyck.top",
   themeConfig: {
-    colorMode: {
-      defaultMode: "dark",
-      // switchConfig: {
-      //   darkIcon: "🌚",
-      //   lightIcon: "🌝",
-      // },
-    },
+    colorMode: { defaultMode: "dark" },
     image: "img/logo.svg",
     navbar: {
       title: "Thyck Corgis",
@@ -65,10 +59,8 @@ module.exports = {
       ],
     },
     footer: {
-      // style: "dark",
-      copyright: `Copyright © ${
-        new Date().getFullYear()
-      } Thyck Corgis. Built with Docusaurus.`,
+      copyright: "Copyright © " + new Date().getFullYear() +
+        " Thyck Corgis. Built with Docusaurus.",
     },
   },
   presets: [
@@ -77,12 +69,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/thyckcorgis/thyck.top/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl: "https://github.com/thyckcorgis/thyck.top/edit/master/",
         },
         theme: {
