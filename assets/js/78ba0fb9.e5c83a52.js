@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthyck_top=self.webpackChunkthyck_top||[]).push([[476],{9726:t=>{t.exports=JSON.parse('{"label":"trap","permalink":"/blog/tags/trap","allTagsPath":"/blog/tags","count":1}')}}]);
