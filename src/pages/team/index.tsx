@@ -31,6 +31,7 @@ const TeamList = [
   {
     title: "Charles Anchentai",
     url: "/img/team/charles.webp",
+    href: "https://charles.thyck.top",
     description: <>This is Charles</>,
     pathD:
       "M197.722 378.555L197.728 378.559C220.368 390.957 245.686 397.143 273.649 397.143C294.618 397.143 314.007 393.648 331.799 386.639L331.809 386.635C349.869 379.357 365.126 368.967 377.553 355.459L378.527 354.4L377.509 353.383L358.709 334.583L357.629 333.503L356.569 334.602C335.276 356.684 308.078 367.743 274.849 367.743C252.954 367.743 233.076 362.734 215.18 352.734C197.277 342.729 183.207 329.052 172.944 311.688C162.955 294.335 157.949 274.865 157.949 253.243C157.949 231.622 162.955 212.152 172.944 194.799C183.207 177.435 197.277 163.758 215.18 153.753C233.076 143.753 252.954 138.743 274.849 138.743C307.813 138.743 335.018 149.671 356.582 171.498L357.642 172.571L358.709 171.504L377.509 152.704L378.527 151.687L377.553 150.628C365.126 137.12 350 126.86 332.199 119.848C314.407 112.839 295.018 109.343 274.049 109.343C246.086 109.343 220.768 115.53 198.128 127.928C175.492 140.324 157.693 157.582 144.754 179.686L144.751 179.691C132.075 201.537 125.749 226.067 125.749 253.243C125.749 280.42 132.075 305.08 144.747 327.189L144.753 327.199L144.758 327.208C157.695 349.039 175.357 366.161 197.722 378.555Z",
@@ -40,6 +41,7 @@ const TeamList = [
   {
     title: "Annette Loo",
     url: "/img/team/annette.webp",
+    href: "https://annette.thyck.top",
     description: <>This is Annette</>,
     pathD:
       "M138.399 391.743H139.369L139.767 390.858L172.969 316.943H327.028L360.23 390.858L360.628 391.743H361.599H392.799H395.134L394.163 389.62L266.163 109.62L265.762 108.743H264.799H235.599H234.635L234.235 109.62L106.235 389.62L105.264 391.743H107.599H138.399ZM185.112 289.943L249.999 144.72L314.886 289.943H185.112Z",
@@ -66,12 +68,14 @@ const TeamList = [
   },
 ];
 
-function Team({ title, url, description, pathD, letter, animationDelay }) {
+function Team({ title, url, description, pathD, letter, animationDelay, href = '#' }) {
   return (
     <div className={clsx("col col--3 team")}>
       <div className="img-circle centered flip-in-x" style={{ animationDelay }}>
         <Svg key={title} pathD={pathD} letter={letter} />
-        <img className="person-img" src={url} alt={title} />
+        <a href={href}>
+          <img className="person-img" src={url} alt={title} />
+        </a>
         <p className="emoji centered">
           {String.fromCodePoint(0x1f449) + " " + String.fromCodePoint(0x1f448)}
         </p>
